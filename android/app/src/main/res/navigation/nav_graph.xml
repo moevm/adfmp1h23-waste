@@ -7,22 +7,45 @@
 
     <fragment
             android:id="@+id/FirstFragment"
-            android:name="info.moevm.adfmp1h23waste.android.FirstFragment"
+            android:name="info.moevm.adfmp1h23waste.android.fragment.HomeFragment"
             android:label="@string/first_fragment_label"
-            tools:layout="@layout/fragment_first">
-
+            tools:layout="@layout/fragment_home">
         <action
-                android:id="@+id/action_FirstFragment_to_SecondFragment"
-                app:destination="@id/SecondFragment" />
+                android:id="@+id/action_FirstFragment_to_instructionFragment"
+                app:destination="@id/InstructionFragment" />
     </fragment>
     <fragment
-            android:id="@+id/SecondFragment"
-            android:name="info.moevm.adfmp1h23waste.android.SecondFragment"
-            android:label="@string/second_fragment_label"
-            tools:layout="@layout/fragment_second">
-
+            android:id="@+id/InstructionFragment"
+            android:name="info.moevm.adfmp1h23waste.android.fragment.InstructionFragment"
+            android:label="fragment_instruction"
+            tools:layout="@layout/fragment_instruction" />
+    <fragment
+            android:id="@+id/SearchFragment"
+            android:name="info.moevm.adfmp1h23waste.android.fragment.SearchFragment"
+            android:label="fragment_search"
+            tools:layout="@layout/fragment_search" />
+    <fragment
+            android:id="@+id/TasksFragment"
+            android:name="info.moevm.adfmp1h23waste.android.fragment.TasksFragment"
+            android:label="fragment_second"
+            tools:layout="@layout/fragment_tasks" />
+    <fragment
+            android:id="@+id/AuthorizationFragment"
+            android:name="info.moevm.adfmp1h23waste.android.fragment.AuthorizationFragment"
+            android:label="fragment_authorization"
+            tools:layout="@layout/fragment_authorization">
         <action
-                android:id="@+id/action_SecondFragment_to_FirstFragment"
-                app:destination="@id/FirstFragment" />
+                android:id="@+id/action_AuthorizationFragment_to_registrationFragment"
+                app:destination="@id/RegistrationFragment" />
     </fragment>
+    <fragment
+            android:id="@+id/RegistrationFragment"
+            android:name="info.moevm.adfmp1h23waste.android.fragment.RegistrationFragment"
+            android:label="fragment_registration"
+            tools:layout="@layout/fragment_registration" />
+    <activity
+            android:id="@+id/MainActivity"
+            android:name="info.moevm.adfmp1h23waste.android.MainActivity"
+            android:label="activity_main"
+            tools:layout="@layout/activity_main" />
 </navigation>
