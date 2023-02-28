@@ -7,4 +7,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="_bg__var_color">#000000</color>
+    <color name="answer_select_button_color">#2F80ED</color>
+    <color name="answer_correct_button_color">#5CC189</color>
+    <color name="answer_incorrect_button_color">#ED8082</color>
+    <color name="description_color">#F2F6FC</color>
+    <color name="_bg__background_ek2_color">#000000</color>
+    <color name="_bg__trashimage_ek2_color">#000000</color>
+    <color name="rectangle_895_color">#C4C4C4</color>
+    <color name="rectangle_896_color">#ffffff</color>
+    <color name="trashtext_color">#33383C</color>
 </resources>

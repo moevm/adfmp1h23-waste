@@ -13,6 +13,7 @@
     <string name="tasksTab">Задания</string>
     <string name="homeTab">Домой</string>
     <string name="secondHelloText">Пора собирать мусор</string>
+    <string name="tasksText">Выберите корзину для мусора</string>
     <string name="instructionHeader">Инструкция</string>
     <string name="searchHint">Поиск</string>
     <!-- TODO: Remove or change this placeholder text -->
@@ -25,4 +26,7 @@
     <string name="registrationInvite">Регистрация</string>
     <string name="registrationButton">Зарегистрироваться</string>
     <string name="repeatPasswordHint">Повторите пароль</string>
+    <string name="description_string">123</string>
+    <string name="title_string">1</string>
+    <string name="trashtext_string"> Бутылка пластиковая </string>
 </resources>
