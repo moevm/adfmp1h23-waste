@@ -15,6 +15,7 @@
     <string name="secondHelloText">Пора собирать мусор</string>
     <string name="instructionHeader">Инструкция и информация</string>
     <string name="creators"> Приложение создали: Афанасьев Андрей, Силкин Владислав, Михаил Прокофьев</string>
+    <string name="tasksText">Выберите корзину для мусора</string>
     <string name="searchHint">Поиск</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -26,6 +27,9 @@
     <string name="registrationInvite">Регистрация</string>
     <string name="registrationButton">Зарегистрироваться</string>
     <string name="repeatPasswordHint">Повторите пароль</string>
+    <string name="description_string">123</string>
+    <string name="title_string">1</string>
+    <string name="trashtext_string"> Бутылка пластиковая </string>
     <string name="search_string"> Поиск </string>
     <string name="searchvalue_string">14</string>
     <string name="tasks_string"> Задания </string>

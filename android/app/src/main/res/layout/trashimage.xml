@@ -1,0 +1,119 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		trashimage
+     *	@date 		Monday 27th of February 2023 09:52:50 PM
+     *	@title 		Page 2
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.3.figma
+     *
+     */
+    -->
+    <ScrollView
+        android:id="@+id/trashimage"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:id="@+id/page_trashimage_ek1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <RelativeLayout
+                    android:id="@+id/trasimage_ek3"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <RelativeLayout
+                        android:id="@+id/trashlayoutimage"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginStart="45dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <View
+                            android:id="@+id/rectangle_896"
+                            android:layout_width="125dp"
+                            android:layout_height="125dp"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="36dp"
+                            android:background="@drawable/rectangle_896_shape" />
+
+
+                        <View
+                            android:id="@+id/rectangle_895"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginStart="44.5dp"
+                            android:layout_marginTop="49dp"
+                            android:background="@drawable/rectangle_895_shape" />
+
+                        <RelativeLayout
+                            android:id="@+id/illustration"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/trashicon"
+                        android:layout_marginTop="56dp"
+                        android:layout_marginStart="102dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/trashimage_ek4"
+                            android:layout_width="68.86dp"
+                            android:layout_height="74.81dp"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="3dp"
+                            android:contentDescription="trashimage_ek4"
+                            android:src="@drawable/trashimage_ek4" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/trashtext"
+                        android:layout_width="308.19999980927dp"
+                        android:layout_height="73.199999809265dp"
+                        android:layout_marginStart="-14dp"
+                        android:layout_marginTop="173dp"
+                        android:fontFamily="@font/relay_cabin_bold"
+                        android:text="@string/trashtext_string"
+                        android:textAlignment="center"
+                        android:textColor="@color/trashtext_color"
+                        android:textSize="24.4sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>
