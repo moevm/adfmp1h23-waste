@@ -29,8 +29,7 @@ class SearchFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         resultView = TextView(this.context)
-        binding.linearLayoutForSearchResult.addView(resultView)
-        binding.searchField.addTextChangedListener(OnSearchTestChanged(resultView))
+        binding.searchLayout.searchField.addTextChangedListener(OnSearchTestChanged(resultView))
     }
 
     class OnSearchTestChanged(

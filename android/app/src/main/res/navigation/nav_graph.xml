@@ -18,7 +18,11 @@
             android:id="@+id/InstructionFragment"
             android:name="info.moevm.adfmp1h23waste.android.fragment.InstructionFragment"
             android:label="fragment_instruction"
-            tools:layout="@layout/fragment_instruction" />
+            tools:layout="@layout/fragment_instruction" >
+        <action
+            android:id="@+id/action_InstructionFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
     <fragment
             android:id="@+id/SearchFragment"
             android:name="info.moevm.adfmp1h23waste.android.fragment.SearchFragment"
