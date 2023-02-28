@@ -1,0 +1,119 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		frame_2
+	 *	@date 		Monday 27th of February 2023 07:40:04 PM
+	 *	@title 		page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/frame_2" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+<!--			<View   android:id="@+id/_bg__frame_2"-->
+<!--				android:background="@drawable/_bg__frame_2_shape"-->
+<!--				 android:layout_marginStart="0dp"-->
+<!--				android:layout_marginTop="0dp"-->
+<!--				android:layout_width="156dp"-->
+<!--				android:layout_height="84dp" />-->
+
+
+			<RelativeLayout android:id="@+id/testwidget"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/rectangle_570"
+					android:background="@drawable/rectangle_570_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="158dp"
+					android:layout_height="86dp" />
+
+				<View   android:id="@+id/ellipse_780"
+					android:background="@drawable/ellipse_780_shape"
+					 android:layout_marginStart="20dp"
+					android:layout_marginTop="22dp"
+					android:layout_width="40dp"
+					android:layout_height="40dp" />
+
+
+				<RelativeLayout android:id="@+id/frametasks"
+					android:layout_marginTop="20dp"
+					android:layout_marginStart="83dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<TextView android:id="@+id/tasks"
+						android:fontFamily="@font/relay_poppins_regular"
+						android:textSize="12sp"
+						android:textColor="@color/tasks_color"
+						android:layout_marginLeft="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="67dp"
+						android:layout_height="28dp"
+						android:text="@string/tasks_string"
+						 />
+
+					<TextView android:id="@+id/tasksvalue"
+						android:fontFamily="@font/relay_poppins_regular"
+						android:textStyle="bold"
+						android:textSize="18sp"
+						android:textColor="@color/tasksvalue_color"
+						android:layout_marginLeft="0dp"
+						android:layout_marginTop="20dp"
+						android:layout_width="47dp"
+						android:layout_height="37dp"
+						android:text="@string/tasksvalue_string"
+						 />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/scoreboard"
+					android:layout_marginTop="30dp"
+					android:layout_marginStart="28dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/shape"
+						android:src="@drawable/shape"
+						android:contentDescription="shape"
+						 android:layout_marginStart="2dp"
+						android:layout_marginTop="4dp"
+						android:layout_width="20dp"
+						android:layout_height="16dp" />
+
+					<ImageView android:id="@+id/shape_ek1"
+						android:src="@drawable/shape_ek1"
+						android:contentDescription="shape_ek1"
+						 android:layout_marginStart="6dp"
+						android:layout_marginTop="8dp"
+						android:layout_width="12dp"
+						android:layout_height="8dp" />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

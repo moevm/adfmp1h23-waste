@@ -1,0 +1,241 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		frame_6
+	 *	@date 		Monday 27th of February 2023 08:25:59 PM
+	 *	@title 		page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/frame_6" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_frame_6_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+<!--				<View   android:id="@+id/_bg__frame_6_ek2"-->
+<!--					android:background="@drawable/_bg__frame_6_ek2_shape"-->
+<!--					 android:layout_marginStart="0dp"-->
+<!--					android:layout_marginTop="0dp"-->
+<!--					android:layout_width="396dp"-->
+<!--					android:layout_height="225dp" />-->
+
+
+				<RelativeLayout android:id="@+id/frame_12963"
+					android:layout_marginTop="0dp"
+					android:layout_marginStart="0dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+
+					<RelativeLayout android:id="@+id/frame_8"
+						android:layout_marginTop="16dp"
+						android:layout_marginStart="24dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<ImageView android:id="@+id/back"
+							android:src="@drawable/vector_14"
+							android:contentDescription="vector_14"
+							 android:layout_marginStart="7dp"
+							android:layout_marginTop="9dp"
+							android:layout_width="17.68dp"
+							android:layout_height="14.32dp" />
+
+					</RelativeLayout>
+
+					<TextView android:id="@+id/notificationtext"
+						android:fontFamily="@font/relay_poppins_regular"
+						android:textStyle="bold"
+						android:textSize="24sp"
+						android:textColor="@color/notificationtext_color"
+						android:layout_marginLeft="64dp"
+						android:layout_marginTop="16dp"
+						android:layout_width="208dp"
+						android:layout_height="49dp"
+						android:text="@string/notificationtext_string"
+						 />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/notificationswitch"
+					android:layout_marginTop="74dp"
+					android:layout_marginStart="43dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+
+					<RelativeLayout android:id="@+id/group_12785"
+						android:layout_marginTop="0dp"
+						android:layout_marginStart="282dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+
+						<RelativeLayout android:id="@+id/toggle__iphone_"
+							android:layout_marginTop="0dp"
+							android:layout_marginStart="0dp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							>
+
+							<ImageView android:id="@+id/background"
+								android:src="@drawable/background"
+								android:contentDescription="background"
+								 android:layout_marginStart="0dp"
+								android:layout_marginTop="0dp"
+								android:layout_width="51dp"
+								android:layout_height="31dp" />
+
+							<ImageView android:id="@+id/knob"
+								android:src="@drawable/knob"
+								android:contentDescription="knob"
+								 android:layout_marginStart="22dp"
+								android:layout_marginTop="2dp"
+								android:layout_width="27dp"
+								android:layout_height="27dp" />
+
+						</RelativeLayout>
+
+					</RelativeLayout>
+
+					<TextView android:id="@+id/notificationswitch_ek1"
+						android:fontFamily="@font/relay_cabin_regular"
+						android:layout_gravity="center_horizontal|center"
+						android:gravity="center"
+						android:textSize="16sp"
+						android:textColor="@color/_bg__frame_6_ek2_color"
+						android:layout_marginLeft="-3dp"
+						android:layout_marginTop="6dp"
+						android:layout_width="253dp"
+						android:layout_height="34dp"
+						android:text="@string/notificationswitch_ek1_string"
+						 />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/notificationweekdays"
+					android:layout_marginTop="130dp"
+					android:layout_marginStart="66dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+
+					<RelativeLayout android:id="@+id/frame_25"
+						android:layout_marginTop="0dp"
+						android:layout_marginStart="184dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<TextView android:id="@+id/weekday"
+							android:fontFamily="@font/relay_poppins_regular"
+							android:layout_gravity="center_horizontal|center"
+							android:gravity="center"
+							android:textSize="13sp"
+							android:textColor="@color/_bg__frame_6_ek2_color"
+							android:layout_marginLeft="8dp"
+							android:layout_marginTop="10dp"
+							android:layout_width="122dp"
+							android:layout_height="29.5dp"
+							android:text="@string/weekday_string"
+							 />
+
+						<ImageView android:id="@+id/polygon_6"
+							android:src="@drawable/polygon_6"
+							android:contentDescription="polygon_6"
+							 android:layout_marginStart="126dp"
+							android:layout_marginTop="16dp"
+							android:layout_width="10dp"
+							android:layout_height="8dp" />
+
+					</RelativeLayout>
+
+					<TextView android:id="@+id/notificationweekdays_ek1"
+						android:fontFamily="@font/relay_cabin_regular"
+						android:textSize="16sp"
+						android:textColor="@color/_bg__frame_6_ek2_color"
+						android:layout_marginLeft="0dp"
+						android:layout_marginTop="8dp"
+						android:layout_width="185dp"
+						android:layout_height="31dp"
+						android:text="@string/notificationweekdays_ek1_string"
+						 />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/notificationtime"
+					android:layout_marginTop="185dp"
+					android:layout_marginStart="66dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<TextView android:id="@+id/notificationtime_ek1"
+						android:fontFamily="@font/relay_cabin_regular"
+						android:textSize="16sp"
+						android:textColor="@color/_bg__frame_6_ek2_color"
+						android:layout_marginLeft="0dp"
+						android:layout_marginTop="10dp"
+						android:layout_width="185dp"
+						android:layout_height="31dp"
+						android:text="@string/notificationtime_ek1_string"
+						 />
+
+
+					<RelativeLayout android:id="@+id/frame_25_ek1"
+						android:layout_marginTop="0dp"
+						android:layout_marginStart="184dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<TextView android:id="@+id/notificationtimeset"
+							android:fontFamily="@font/relay_poppins_regular"
+							android:layout_gravity="center_horizontal|center"
+							android:gravity="center"
+							android:textSize="13sp"
+							android:textColor="@color/_bg__frame_6_ek2_color"
+							android:layout_marginLeft="8dp"
+							android:layout_marginTop="10dp"
+							android:layout_width="138dp"
+							android:layout_height="29.5dp"
+							android:text="@string/notificationtimeset_string"
+							 />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

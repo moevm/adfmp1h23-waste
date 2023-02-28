@@ -1,0 +1,104 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		frame_4
+	 *	@date 		Monday 27th of February 2023 08:03:20 PM
+	 *	@title 		page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/frame_4" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_frame_4_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+<!--				<View   android:id="@+id/_bg__frame_4_ek2"-->
+<!--					android:background="@drawable/_bg__frame_4_ek2_shape"-->
+<!--					 android:layout_marginStart="0dp"-->
+<!--					android:layout_marginTop="0dp"-->
+<!--					android:layout_width="168dp"-->
+<!--					android:layout_height="40dp" />-->
+
+
+				<RelativeLayout android:id="@+id/group_12784"
+					android:layout_marginTop="0dp"
+					android:layout_marginStart="0dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/ellipse_783"
+						android:background="@drawable/ellipse_783_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="40dp"
+						android:layout_height="40dp" />
+
+
+					<RelativeLayout android:id="@+id/iconly_bold_calendar"
+						android:layout_marginTop="8dp"
+						android:layout_marginStart="8dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+
+						<RelativeLayout android:id="@+id/calendar"
+							android:layout_marginTop="2dp"
+							android:layout_marginStart="3dp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							>
+
+							<ImageView android:id="@+id/calendar_ek1"
+								android:src="@drawable/calendar_ek1"
+								android:contentDescription="calendar_ek1"
+								 android:layout_marginStart="0dp"
+								android:layout_marginTop="0dp"
+								android:layout_width="18dp"
+								android:layout_height="20dp" />
+
+						</RelativeLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+				<TextView android:id="@+id/notifications"
+					android:fontFamily="@font/relay_poppins_regular"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="16sp"
+					android:textColor="@color/notifications_color"
+					android:layout_marginLeft="53dp"
+					android:layout_marginTop="8dp"
+					android:layout_width="125dp"
+					android:layout_height="35dp"
+					android:text="@string/notifications_string"
+					 />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

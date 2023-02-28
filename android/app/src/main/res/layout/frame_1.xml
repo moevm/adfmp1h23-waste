@@ -1,0 +1,145 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		frame_1
+	 *	@date 		Monday 27th of February 2023 06:48:53 PM
+	 *	@title 		page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/frame_1" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+<!--			<View   android:id="@+id/_bg__frame_1"-->
+<!--				android:background="@drawable/_bg__frame_1_shape"-->
+<!--				 android:layout_marginStart="0dp"-->
+<!--				android:layout_marginTop="0dp"-->
+<!--				android:layout_width="156dp"-->
+<!--				android:layout_height="84dp" />-->
+
+
+			<RelativeLayout android:id="@+id/searchprofile"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/searchbg"
+					android:background="@drawable/searchbg_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="158dp"
+					android:layout_height="86dp" />
+
+				<View   android:id="@+id/elipseimage"
+					android:background="@drawable/elipseimage_shape"
+					 android:layout_marginStart="20dp"
+					android:layout_marginTop="22dp"
+					android:layout_width="40dp"
+					android:layout_height="40dp" />
+
+
+				<RelativeLayout android:id="@+id/searchtext"
+					android:layout_marginTop="20dp"
+					android:layout_marginStart="82dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<TextView android:id="@+id/search"
+						android:fontFamily="@font/relay_poppins_regular"
+						android:textSize="12sp"
+						android:textColor="@color/search_color"
+						android:layout_marginLeft="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="53dp"
+						android:layout_height="28dp"
+						android:text="@string/search_string"
+						 />
+
+					<TextView android:id="@+id/searchvalue"
+						android:fontFamily="@font/relay_poppins_regular"
+						android:textStyle="bold"
+						android:textSize="18sp"
+						android:textColor="@color/searchvalue_color"
+						android:layout_marginLeft="0dp"
+						android:layout_marginTop="20dp"
+						android:layout_width="42dp"
+						android:layout_height="37dp"
+						android:text="@string/searchvalue_string"
+						 />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/icondocs"
+					android:layout_marginTop="30dp"
+					android:layout_marginStart="27dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+
+					<RelativeLayout android:id="@+id/image"
+						android:layout_marginTop="3.03dp"
+						android:layout_marginStart="4.14dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<ImageView android:id="@+id/stroke_1"
+							android:src="@drawable/stroke_1"
+							android:contentDescription="stroke_1"
+							 android:layout_marginStart="5dp"
+							android:layout_marginTop="14dp"
+							android:layout_width="7.97dp"
+							android:layout_height="1.1dp" />
+
+						<ImageView android:id="@+id/stroke_2"
+							android:src="@drawable/stroke_2"
+							android:contentDescription="stroke_2"
+							 android:layout_marginStart="5dp"
+							android:layout_marginTop="10dp"
+							android:layout_width="7.97dp"
+							android:layout_height="1.1dp" />
+
+						<ImageView android:id="@+id/stroke_3"
+							android:src="@drawable/stroke_3"
+							android:contentDescription="stroke_3"
+							 android:layout_marginStart="5dp"
+							android:layout_marginTop="5dp"
+							android:layout_width="3.04dp"
+							android:layout_height="1.1dp" />
+
+						<ImageView android:id="@+id/stroke_4"
+							android:src="@drawable/stroke_4"
+							android:contentDescription="stroke_4"
+							 android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="18.4dp"
+							android:layout_height="20.31dp" />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

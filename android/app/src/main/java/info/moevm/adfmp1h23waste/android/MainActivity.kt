@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
         addTabTo(tabLayout, TabName.TASKS.tabName)
         addTabTo(tabLayout, TabName.SEARCH.tabName)
         addTabTo(tabLayout, TabName.PROFILE.tabName)
+        addTabTo(tabLayout, TabName.LOGIN.tabName)
         val tabListener = TabListener(this)
         tabLayout.addOnTabSelectedListener(tabListener)
         return tabLayout
@@ -89,6 +90,8 @@ class MainActivity : AppCompatActivity() {
                 TabName.SEARCH.tabName -> activity.findNavController(R.id.nav_host_fragment_content_main)
                     .navigate(R.id.SearchFragment)
                 TabName.PROFILE.tabName -> activity.findNavController(R.id.nav_host_fragment_content_main)
+                    .navigate(R.id.ProfileFragment)
+                TabName.LOGIN.tabName -> activity.findNavController(R.id.nav_host_fragment_content_main)
                     .navigate(R.id.AuthorizationFragment)
             }
         }
@@ -98,6 +101,7 @@ class MainActivity : AppCompatActivity() {
         HOME("Домой"),
         TASKS("Задания"),
         SEARCH("Поиск"),
-        PROFILE("Профиль")
+        PROFILE("Профиль"),
+        LOGIN("Вход"),
     }
 }

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -7,4 +10,23 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="_bg__frame_1_color">#000000</color>
+    <color name="searchbg_color">#ffffff</color>
+    <color name="elipseimage_color">#D3D5FE</color>
+    <color name="search_color">#353945</color>
+    <color name="searchvalue_color">#22262E</color>
+    <color name="_bg__frame_2_color">#000000</color>
+    <color name="rectangle_570_color">#ffffff</color>
+    <color name="ellipse_780_color">#D9FFD5</color>
+    <color name="tasks_color">#353945</color>
+    <color name="tasksvalue_color">#22262E</color>
+    <color name="_bg__frame_3_ek2_color">#000000</color>
+    <color name="usingsince_color">#757C8E</color>
+    <color name="username_color">#21242D</color>
+    <color name="_bg__frame_4_ek2_color">#000000</color>
+    <color name="ellipse_783_color">#458CFF</color>
+    <color name="notifications_color">#21242D</color>
+    <color name="_bg__frame_5_ek2_color">#000000</color>
+    <color name="_bg__frame_6_ek2_color">#000000</color>
+    <color name="notificationtext_color">#22262E</color>
 </resources>

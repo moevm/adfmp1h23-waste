@@ -13,7 +13,8 @@
     <string name="tasksTab">Задания</string>
     <string name="homeTab">Домой</string>
     <string name="secondHelloText">Пора собирать мусор</string>
-    <string name="instructionHeader">Инструкция</string>
+    <string name="instructionHeader">Инструкция и информация</string>
+    <string name="creators"> Приложение создали: Афанасьев Андрей, Силкин Владислав, Михаил Прокофьев</string>
     <string name="searchHint">Поиск</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -25,4 +26,18 @@
     <string name="registrationInvite">Регистрация</string>
     <string name="registrationButton">Зарегистрироваться</string>
     <string name="repeatPasswordHint">Повторите пароль</string>
+    <string name="search_string"> Поиск </string>
+    <string name="searchvalue_string">14</string>
+    <string name="tasks_string"> Задания </string>
+    <string name="tasksvalue_string">94</string>
+    <string name="usingsince_string"> В приложении с 21.03.2052</string>
+    <string name="username_string"> Здравствуй, пользователь </string>
+    <string name="profiletext_string"> Профиль </string>
+    <string name="notifications_string"> Напоминания </string>
+    <string name="notificationtext_string"> Напоминания </string>
+    <string name="notificationswitch_ek1_string"> Включить напоминания </string>
+    <string name="weekday_string"> Пятница </string>
+    <string name="notificationweekdays_ek1_string"> Дни напоминаний</string>
+    <string name="notificationtime_ek1_string"> Время напоминаний </string>
+    <string name="notificationtimeset_string">7:30 PM</string>
 </resources>
