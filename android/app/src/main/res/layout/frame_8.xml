@@ -1,0 +1,108 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		frame_8
+	 *	@date 		Tuesday 28th of February 2023 03:04:02 PM
+	 *	@title 		page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/frame_8" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+			<RelativeLayout android:id="@+id/page_frame_8_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+<!--				<View   android:id="@+id/_bg__frame_8_ek2"-->
+<!--					android:background="@drawable/_bg__frame_8_ek2_shape"-->
+<!--					 android:layout_marginStart="0dp"-->
+<!--					android:layout_marginTop="0dp"-->
+<!--					android:layout_width="343dp"-->
+<!--					android:layout_height="104dp" />-->
+
+				<TextView android:id="@+id/searchheader"
+					android:fontFamily="@font/relay_poppins_regular"
+					android:textStyle="bold"
+					android:textSize="24sp"
+					android:textColor="@color/searchheader_color"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="107dp"
+					android:layout_height="49dp"
+					android:text="@string/searchheader_string"
+					 />
+
+
+				<RelativeLayout
+					android:id="@+id/searchbar"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="13dp"
+					android:layout_marginTop="56dp"
+					android:background="#EFEFEF">
+
+
+					<EditText
+						android:id="@+id/searchField"
+						android:layout_width="215dp"
+						android:layout_height="45dp"
+						android:layout_marginLeft="12dp"
+						android:layout_marginTop="0dp"
+						android:fontFamily="@font/relay_poppins_regular"
+						android:text="@string/edittextsearch_string"
+						android:textColor="@color/edittextsearch_color"
+						android:textSize="14sp" />
+
+					<RelativeLayout
+						android:id="@+id/small_circle_button"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="286dp"
+						android:layout_marginTop="8dp">
+
+
+						<RelativeLayout
+							android:id="@+id/icons_search_line"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginStart="4dp"
+							android:layout_marginTop="4dp">
+
+							<ImageView
+								android:id="@+id/shape2"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginStart="2dp"
+								android:layout_marginTop="2dp"
+								android:contentDescription="shape2"
+								android:src="@drawable/shape2" />
+
+						</RelativeLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

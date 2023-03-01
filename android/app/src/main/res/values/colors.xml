@@ -46,4 +46,10 @@
     <color name="fieldtextinput_color">#AFB3C1</color>
     <color name="fieldtextpropertyname_color">#353945</color>
     <color name="_bg__fieldtext_ek2_color">#000000</color>
+    <color name="_bg__frame_7_ek2_color">#000000</color>
+    <color name="instructionheader_color">#22262E</color>
+    <color name="_bg__frame_8_ek2_color">#000000</color>
+    <color name="searchheader_color">#22262E</color>
+    <color name="edittextsearch_color">#AFB3C1</color>
+
 </resources>

@@ -1,0 +1,76 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		frame_7
+	 *	@date 		Tuesday 28th of February 2023 02:53:25 PM
+	 *	@title 		page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/frame_7" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_frame_7_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+<!--				<View   android:id="@+id/_bg__frame_7_ek2"-->
+<!--					android:background="@drawable/_bg__frame_7_ek2_shape"-->
+<!--					 android:layout_marginStart="0dp"-->
+<!--					android:layout_marginTop="0dp"-->
+<!--					android:layout_width="376dp"-->
+<!--					android:layout_height="96dp" />-->
+
+
+				<RelativeLayout android:id="@+id/frame_8"
+					android:layout_marginTop="16dp"
+					android:layout_marginStart="24dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/backInstruction"
+						android:src="@drawable/vector_14"
+						android:contentDescription="vector_14"
+						 android:layout_marginStart="7dp"
+						android:layout_marginTop="9dp"
+						android:layout_width="17.68dp"
+						android:layout_height="14.32dp" />
+
+				</RelativeLayout>
+
+				<TextView android:id="@+id/instructionheader"
+					android:fontFamily="@font/relay_poppins_regular"
+					android:textStyle="bold"
+					android:textSize="24sp"
+					android:textColor="@color/instructionheader_color"
+					android:layout_marginLeft="64dp"
+					android:layout_marginTop="16dp"
+					android:layout_width="295dp"
+					android:layout_height="81dp"
+					android:text="@string/instructionheader_string"
+					 />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
