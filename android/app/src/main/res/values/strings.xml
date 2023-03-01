@@ -55,4 +55,5 @@
     <string name="instructionheader_string"> Инструкция и информация </string>
     <string name="searchheader_string"> Поиск </string>
     <string name="edittextsearch_string"> Введите название предмета </string>
+    <string name="buttonNextTask">Следующее задание</string>
 </resources>

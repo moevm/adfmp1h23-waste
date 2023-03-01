@@ -14,7 +14,6 @@ import info.moevm.adfmp1h23waste.android.databinding.SelectAnswerBinding
 import info.moevm.adfmp1h23waste.android.databinding.TrashImageBinding
 import info.moevm.adfmp1h23waste.android.user.Answer
 import info.moevm.adfmp1h23waste.android.user.Task
-import java.util.*
 
 class TasksFragment : Fragment() {
 
@@ -28,6 +27,7 @@ class TasksFragment : Fragment() {
     ): View {
         _binding = FragmentTasksBinding.inflate(inflater, container, false)
         testStartTask(Tasks.FIRST.taskEnum)
+        binding.buttonNextTask.setOnClickListener { onClickNextTask() }
         return binding.root
     }
 
@@ -90,17 +90,12 @@ class TasksFragment : Fragment() {
             changeAnswer(selectAnswerBinding, AnswerXmls.INCORRECT.answerXml)
             changeTextTask("Неверно!")
         }
-        testJumpNextTask()
     }
 
-    private fun testJumpNextTask() {
 
-        Timer().schedule(object : TimerTask() {
-            override fun run() {
-                changeTextTask("Выберите корзину для мусора")
-                testStartTask(Tasks.SECOND.taskEnum)
-            }
-        }, 1000)
+    private fun onClickNextTask() {
+        changeTextTask("Выберите корзину для мусора")
+        testStartTask(Tasks.SECOND.taskEnum)
     }
 
     private fun checkCorrectAnswer(selectAnswerBinding: SelectAnswerBinding) {
