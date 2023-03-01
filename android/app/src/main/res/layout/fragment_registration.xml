@@ -1,109 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".fragment.RegistrationFragment">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.RegistrationFragment">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/frame_8"
+            android:layout_marginTop="58dp"
+            android:layout_marginStart="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/back"
+                android:src="@drawable/vector_14"
+                android:contentDescription="vector_14"
+                android:layout_width="17.68dp"
+                android:layout_height="14.32dp" />
+
+        </RelativeLayout>
 
         <TextView
-                android:text="@string/registrationInvite"
-                android:textSize="48sp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/registrationHeader"
-                app:layout_constraintBottom_toTopOf="@+id/registrationLinearLayout"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+            android:id="@+id/registrationHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="47dp"
+            android:layout_marginStart="47dp"
+            android:text="@string/registrationInvite"
+            android:textSize="24sp"
+            android:fontFamily="@font/relay_poppins_semibold"
+            android:textColor="#21242D"
+            app:layout_constraintBottom_toTopOf="@+id/registrationLinearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
 
         <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/registrationLinearLayout"
+            app:layout_constraintTop_toBottomOf="@+id/registrationHeader"
+            android:layout_marginTop="180dp">
+
+
+            <include
+                android:id="@+id/input_field_name"
+                layout="@layout/input_field_registration"
+
+                app:layout_constraintBottom_toTopOf="@+id/registrationLinearLayout"
                 app:layout_constraintEnd_toEndOf="parent"
-                android:id="@+id/registrationLinearLayout"
-                app:layout_constraintTop_toBottomOf="@+id/registrationHeader"
-                android:layout_marginBottom="128dp">
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-            <com.google.android.material.textfield.TextInputLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/textInputLayoutRegistrationName">
+            <include
+                android:id="@+id/input_field_email"
+                layout="@layout/input_field_registration"
 
-                <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/registrationEmailName"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:inputType="text"
-                        android:hint="Имя" />
-            </com.google.android.material.textfield.TextInputLayout>
+                app:layout_constraintBottom_toTopOf="@+id/registrationLinearLayout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-            <com.google.android.material.textfield.TextInputLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/textInputLayoutRegistrationEmail">
+            <include
+                android:id="@+id/input_field_password"
+                layout="@layout/input_field_registration"
 
-                <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/registrationEmailField"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:inputType="textEmailAddress"
-                        android:hint="@string/emailField" />
-            </com.google.android.material.textfield.TextInputLayout>
+                app:layout_constraintBottom_toTopOf="@+id/registrationLinearLayout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-            <com.google.android.material.textfield.TextInputLayout
-                    app:passwordToggleEnabled="true"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/registrationPasswordInputLayout">
+            <include
+                android:id="@+id/input_field_repeat_password"
+                layout="@layout/input_field_registration"
 
-                <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/registrationPasswordField"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:inputType="textPassword"
-                        android:hint="@string/passwordHint" />
-            </com.google.android.material.textfield.TextInputLayout>
-
-            <com.google.android.material.textfield.TextInputLayout
-                    app:passwordToggleEnabled="true"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/registrationRepeatPasswordInputLayout">
-
-                <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/registrationPasswordRepeatField"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:inputType="textPassword"
-                        android:hint="@string/repeatPasswordHint" />
-            </com.google.android.material.textfield.TextInputLayout>
+                app:layout_constraintBottom_toTopOf="@+id/registrationLinearLayout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/registrationButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:fontFamily="@font/relay_poppins_medium"
+                android:text="Зарегистрироваться"
+                android:textColor="#458CFF"
+                android:textSize="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/registrationLinearLayout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
         </LinearLayout>
 
         <Button
-                android:text="@string/registrationButton"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/authButton"
-                app:layout_constraintTop_toBottomOf="@+id/registrationLinearLayout"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintVertical_bias="0.446"
-                app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginEnd="64dp"
-                android:layout_marginStart="64dp" />
+            android:text="@string/registrationButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/authButton"
+            app:layout_constraintTop_toBottomOf="@+id/registrationLinearLayout"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.446"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="64dp"
+            android:layout_marginStart="64dp" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
 
-</FrameLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

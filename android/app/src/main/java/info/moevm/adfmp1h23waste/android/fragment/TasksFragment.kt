@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment
 import info.moevm.adfmp1h23waste.android.R
 import info.moevm.adfmp1h23waste.android.databinding.FragmentTasksBinding
 import info.moevm.adfmp1h23waste.android.databinding.SelectAnswerBinding
-import info.moevm.adfmp1h23waste.android.databinding.TrashimageBinding
+import info.moevm.adfmp1h23waste.android.databinding.TrashImageBinding
 import info.moevm.adfmp1h23waste.android.user.Answer
 import info.moevm.adfmp1h23waste.android.user.Task
 import java.util.*
@@ -47,12 +47,18 @@ class TasksFragment : Fragment() {
         selectAnswerBinding.button.setOnClickListener { onClickAnswer(selectAnswerBinding) }
     }
 
-    private fun fillTask(task: Task, trashimageBinding: TrashimageBinding) {
+    private fun fillTask(task: Task, trashimageBinding: TrashImageBinding) {
         val linkTitle: TextView = trashimageBinding.trashtext
 
         changeImage(trashimageBinding.trashimageEk4, task.imageId)
         testCorrectAnswer = task.correctAnswer
         linkTitle.text = task.title
+    }
+
+    private fun changeTextTask(string: String) {
+        val linkTitle: TextView = binding.mainText
+        linkTitle.text = string
+
     }
 
     private fun testStartTask(task: Task) {
@@ -79,8 +85,10 @@ class TasksFragment : Fragment() {
     private fun checkAnswer(selectAnswerBinding: SelectAnswerBinding) {
         if (selectAnswerBinding.description.text.toString() == testCorrectAnswer) {
             changeAnswer(selectAnswerBinding, AnswerXmls.CORRECT.answerXml)
+            changeTextTask("Верно!")
         } else {
             changeAnswer(selectAnswerBinding, AnswerXmls.INCORRECT.answerXml)
+            changeTextTask("Неверно!")
         }
         testJumpNextTask()
     }
@@ -89,9 +97,10 @@ class TasksFragment : Fragment() {
 
         Timer().schedule(object : TimerTask() {
             override fun run() {
+                changeTextTask("Выберите корзину для мусора")
                 testStartTask(Tasks.SECOND.taskEnum)
             }
-        }, 300)
+        }, 1000)
     }
 
     private fun checkCorrectAnswer(selectAnswerBinding: SelectAnswerBinding) {

@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1000dp"
+    android:layout_height="wrap_content">
+    <!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		loginbutton
+     *	@date 		Tuesday 28th of February 2023 04:06:12 PM
+     *	@title 		Page 1
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.3.figma
+     *
+     */
+    -->
+    <RelativeLayout
+        android:id="@+id/loginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:id="@+id/login_button"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/backgroundpng"
+                    android:layout_width="434.6dp"
+                    android:layout_height="150.6dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:contentDescription="123"
+                    android:src="@drawable/loginbutton" />
+
+                <View
+                    android:id="@+id/background"
+                    android:layout_width="354dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="41dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/background_shape"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/login"
+                    android:layout_width="342dp"
+                    android:layout_height="44dp"
+                    android:layout_gravity="center_horizontal|center"
+                    android:layout_marginLeft="51.53dp"
+                    android:layout_marginTop="36dp"
+                    android:fontFamily="@font/relay_poppins_semibold"
+                    android:gravity="center"
+                    android:text="@string/login_string"
+                    android:textColor="@color/login_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

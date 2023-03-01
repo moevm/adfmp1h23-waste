@@ -1,9 +1,13 @@
 package info.moevm.adfmp1h23waste.android
 
+import android.annotation.SuppressLint
 import android.app.Activity
+import android.graphics.Color
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.ImageView
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
@@ -11,6 +15,8 @@ import androidx.navigation.ui.navigateUp
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayout.Tab
 import info.moevm.adfmp1h23waste.android.databinding.ActivityMainBinding
+import info.moevm.adfmp1h23waste.android.databinding.TabButtonBinding
+import info.moevm.adfmp1h23waste.android.user.TabButton
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,10 +28,10 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        setSupportActionBar(binding.toolbar)
+        fillTabButtonsDefault()
 
-        val tabLayout = createTabBar()
-        binding.toolbar.addView(tabLayout)
+        //val tabLayout = createTabBar()
+        //binding.toolbar.addView(tabLayout)
     }
 
     private fun createTabBar(): TabLayout {
@@ -103,5 +109,90 @@ class MainActivity : AppCompatActivity() {
         SEARCH("Поиск"),
         PROFILE("Профиль"),
         LOGIN("Вход"),
+    }
+
+
+    @SuppressLint("ResourceAsColor")
+    private fun fillTabButtonDefault(tabButton: TabButton, tabbuttonBinding: TabButtonBinding) {
+
+        val linkTitle: TextView = tabbuttonBinding.tabbuttontext
+        linkTitle.text = tabButton.title
+        linkTitle.setTextColor(Color.parseColor("#333333"))
+        changeImage(tabbuttonBinding.tabbuttonvector, tabButton.imageId)
+        tabbuttonBinding.tabbuttonvector.setOnClickListener {
+            onClickTabButton(
+                tabButton,
+                tabbuttonBinding
+            )
+        }
+        tabbuttonBinding.tabbuttontext.setOnClickListener {
+            onClickTabButton(
+                tabButton,
+                tabbuttonBinding
+            )
+        }
+
+    }
+
+    private fun fillTabButtonsDefault() {
+        fillTabButtonDefault(TabButtons.HOME.tabButton, binding.tabbuttonhome)
+        fillTabButtonDefault(TabButtons.TASKS.tabButton, binding.tabbuttontasks)
+        fillTabButtonDefault(TabButtons.SEARCH.tabButton, binding.tabbuttonsearch)
+        fillTabButtonDefault(TabButtons.PROFILE.tabButton, binding.tabbuttonprofile)
+        fillTabButtonDefault(TabButtons.LOGIN.tabButton, binding.tabbuttonlogin)
+    }
+
+    private fun onClickTabButton(tabButton: TabButton, tabbuttonBinding: TabButtonBinding) {
+        fillTabButtonsDefault()
+        changeImage(tabbuttonBinding.tabbuttonvector, tabButton.imageActiveId)
+        tabbuttonBinding.tabbuttontext.setTextColor(Color.parseColor("#2F80ED"))
+        this.findNavController(R.id.nav_host_fragment_content_main).navigate(tabButton.link)
+    }
+
+    private fun changeImage(imageView: ImageView, imageId: Int) {
+        imageView.setImageResource(imageId)
+    }
+
+    enum class TabButtons(val tabButton: TabButton) {
+        HOME(
+            TabButton(
+                R.drawable.tabbuttonhome,
+                R.drawable.tabbuttonhomeactive,
+                "Домой",
+                R.id.FirstFragment
+            )
+        ),
+        TASKS(
+            TabButton(
+                R.drawable.tabbuttontasks,
+                R.drawable.tabbuttontasksactive,
+                "Задания",
+                R.id.TasksFragment
+            )
+        ),
+        SEARCH(
+            TabButton(
+                R.drawable.tabbuttonsearch,
+                R.drawable.tabbuttonsearchactive,
+                "Поиск",
+                R.id.SearchFragment
+            )
+        ),
+        PROFILE(
+            TabButton(
+                R.drawable.tabbuttonprofile,
+                R.drawable.tabbuttonprofileactive,
+                "Профиль",
+                R.id.ProfileFragment
+            )
+        ),
+        LOGIN(
+            TabButton(
+                R.drawable.tabbuttonlogin,
+                R.drawable.tabbuttonloginactive,
+                "Вход",
+                R.id.AuthorizationFragment
+            )
+        ),
     }
 }

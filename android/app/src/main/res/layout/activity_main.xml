@@ -1,17 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".MainActivity">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
 
     <include layout="@layout/content_main" />
 
-    <com.google.android.material.bottomappbar.BottomAppBar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/_bg__fieldtabbuttons_ek2_shape">
+
+        <include
+            android:id="@+id/tabbuttonhome"
+            layout="@layout/tab_button"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            style="@style/Widget.MaterialComponents.BottomAppBar"></com.google.android.material.bottomappbar.BottomAppBar>
+            android:layout_marginStart="1dp" />
+
+        <include
+            android:id="@+id/tabbuttontasks"
+            layout="@layout/tab_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="87dp" />
+
+        <include
+            android:id="@+id/tabbuttonsearch"
+            layout="@layout/tab_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="173dp" />
+
+        <include
+            android:id="@+id/tabbuttonprofile"
+            layout="@layout/tab_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="259dp" />
+
+
+        <include
+            android:id="@+id/tabbuttonlogin"
+            layout="@layout/tab_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="345dp" />
+    </RelativeLayout>
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

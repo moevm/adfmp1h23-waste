@@ -39,10 +39,14 @@
                 app:destination="@id/RegistrationFragment" />
     </fragment>
     <fragment
-            android:id="@+id/RegistrationFragment"
-            android:name="info.moevm.adfmp1h23waste.android.fragment.RegistrationFragment"
-            android:label="fragment_registration"
-            tools:layout="@layout/fragment_registration" />
+        android:id="@+id/RegistrationFragment"
+        android:name="info.moevm.adfmp1h23waste.android.fragment.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration">
+        <action
+            android:id="@+id/action_RegistrationFragment_to_AuthorizationFragment"
+            app:destination="@id/AuthorizationFragment" />
+    </fragment>
     <activity
             android:id="@+id/MainActivity"
             android:name="info.moevm.adfmp1h23waste.android.MainActivity"
