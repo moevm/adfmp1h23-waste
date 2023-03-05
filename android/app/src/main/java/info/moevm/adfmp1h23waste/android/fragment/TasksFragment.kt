@@ -58,7 +58,6 @@ class TasksFragment : Fragment() {
     private fun changeTextTask(string: String) {
         val linkTitle: TextView = binding.mainText
         linkTitle.text = string
-
     }
 
     private fun testStartTask(task: Task) {
