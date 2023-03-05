@@ -23,16 +23,17 @@ class HomeFragment : Fragment() {
     ): View {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
 
-        setUpInstructionButton()
+        setUpTransitionButtons()
         fillAchievements(binding.achievementsLayout)
 
         return binding.root
     }
 
-    private fun setUpInstructionButton() {
+    private fun setUpTransitionButtons() {
         binding.imageButton.setOnClickListener {
             findNavController().navigate(R.id.action_FirstFragment_to_instructionFragment)
         }
+        binding.About.setOnClickListener { findNavController().navigate(R.id.action_FirstFragment_to_aboutFragment) }
     }
 
     private fun fillAchievements(layout: LinearLayout) {

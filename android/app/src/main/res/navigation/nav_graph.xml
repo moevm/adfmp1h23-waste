@@ -13,6 +13,9 @@
         <action
                 android:id="@+id/action_FirstFragment_to_instructionFragment"
                 app:destination="@id/InstructionFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
     </fragment>
     <fragment
             android:id="@+id/InstructionFragment"
@@ -73,5 +76,14 @@
         <action
             android:id="@+id/action_notificationFragment_to_ProfileFragment"
             app:destination="@id/ProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="info.moevm.adfmp1h23waste.android.fragment.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" >
+        <action
+            android:id="@+id/action_aboutFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
     </fragment>
 </navigation>
