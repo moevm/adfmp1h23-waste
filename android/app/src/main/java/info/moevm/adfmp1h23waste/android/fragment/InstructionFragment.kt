@@ -24,7 +24,11 @@ class InstructionFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        binding.instructionHeader.backInstruction.setOnClickListener { findNavController().navigate(R.id.action_InstructionFragment_to_FirstFragment) }
+        binding.instructionHeader.backInstruction.setOnClickListener {
+            findNavController().navigate(
+                R.id.action_InstructionFragment_to_FirstFragment
+            )
+        }
         super.onViewCreated(view, savedInstanceState)
     }
 }

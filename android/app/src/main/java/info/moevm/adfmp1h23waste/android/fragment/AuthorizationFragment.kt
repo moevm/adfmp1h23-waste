@@ -24,7 +24,9 @@ class AuthorizationFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        binding.registrationTextView.setOnClickListener { findNavController().navigate(R.id.action_AuthorizationFragment_to_registrationFragment) }
+        binding.registrationTextView.setOnClickListener {
+            findNavController().navigate(R.id.action_AuthorizationFragment_to_registrationFragment)
+        }
         super.onViewCreated(view, savedInstanceState)
     }
 }

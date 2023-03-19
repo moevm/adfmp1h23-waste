@@ -25,7 +25,9 @@ class RegistrationFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentRegistrationBinding.inflate(inflater, container, false)
-        binding.back.setOnClickListener { findNavController().navigate(R.id.action_RegistrationFragment_to_AuthorizationFragment) }
+        binding.back.setOnClickListener {
+            findNavController().navigate(R.id.action_RegistrationFragment_to_AuthorizationFragment)
+        }
         fillsInputFieldsRegistration()
 
         return binding.root

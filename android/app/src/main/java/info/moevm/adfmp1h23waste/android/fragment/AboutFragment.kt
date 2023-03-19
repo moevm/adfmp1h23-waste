@@ -24,7 +24,9 @@ class AboutFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        binding.backAbout.setOnClickListener { findNavController().navigate(R.id.action_aboutFragment_to_FirstFragment) }
+        binding.backAbout.setOnClickListener {
+            findNavController().navigate(R.id.action_aboutFragment_to_FirstFragment)
+        }
         super.onViewCreated(view, savedInstanceState)
     }
 }

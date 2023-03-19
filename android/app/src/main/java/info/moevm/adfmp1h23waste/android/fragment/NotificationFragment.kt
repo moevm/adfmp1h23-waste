@@ -15,7 +15,8 @@ class NotificationFragment : Fragment() {
     private val binding get() = _binding!!
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentNotificationBinding.inflate(inflater, container, false)
@@ -23,7 +24,9 @@ class NotificationFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        binding.notificationFuncLayout.back.setOnClickListener { findNavController().navigate(R.id.action_notificationFragment_to_ProfileFragment) }
+        binding.notificationFuncLayout.back.setOnClickListener {
+            findNavController().navigate(R.id.action_notificationFragment_to_ProfileFragment)
+        }
         super.onViewCreated(view, savedInstanceState)
     }
 
