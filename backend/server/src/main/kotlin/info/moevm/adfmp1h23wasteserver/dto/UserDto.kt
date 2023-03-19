@@ -8,9 +8,6 @@ class UserDto(
     @JsonProperty("name")
     var name: String,
 
-    @JsonProperty("surname")
-    var surname: String,
-
     @JsonProperty("email")
     @field:Email
     var email: String,

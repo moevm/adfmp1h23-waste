@@ -15,5 +15,5 @@ interface UserService {
 
     suspend fun register(registerDto: RegisterDto): Mono<UserDto>
 
-    suspend fun checkAuth(authorizeDto: AuthorizeDto): Boolean
+    suspend fun checkAuth(authorizeDto: AuthorizeDto): Mono<Boolean>
 }
