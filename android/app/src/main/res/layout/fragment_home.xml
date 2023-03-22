@@ -91,16 +91,16 @@
 
 
         <include
-            android:id="@+id/achieve1"
-            layout="@layout/home_achievement"
+            android:id="@+id/achievement1"
+            layout="@layout/achievement"
             android:layout_width="wrap_content"
             android:layout_height="105dp"
             tools:layout_editor_absoluteX="28dp"
             tools:layout_editor_absoluteY="245dp" />
 
         <include
-            android:id="@+id/achieve2"
-            layout="@layout/home_achievement"
+            android:id="@+id/achievement2"
+            layout="@layout/achievement"
             android:layout_width="wrap_content"
             android:layout_height="105dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -110,8 +110,8 @@
             tools:layout_editor_absoluteY="245dp" />
 
         <include
-            android:id="@+id/achieve3"
-            layout="@layout/home_achievement"
+            android:id="@+id/achievement3"
+            layout="@layout/achievement"
             android:layout_width="wrap_content"
             android:layout_height="105dp"
             app:layout_constraintEnd_toEndOf="parent"

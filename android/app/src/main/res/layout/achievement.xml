@@ -1,5 +1,6 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
-	android:layout_width="match_parent" android:layout_height="wrap_content" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
 	<!-- 
 	/*
 	 *	This content is generated from the API File Info.
@@ -71,7 +72,7 @@
 									android:layout_width="354dp"
 									android:layout_height="94dp" />
 
-								<TextView android:id="@+id/sketch_ek1"
+								<TextView android:id="@+id/title"
 									android:fontFamily="@font/relay_cabin_regular"
 									android:textSize="14.8sp"
 									android:textColor="@color/sketch_ek1_color"
@@ -83,7 +84,7 @@
 									 />
 
 								<TextView
-									android:id="@+id/w10_hours__19_lessons"
+									android:id="@+id/description"
 									android:layout_width="231.91dp"
 									android:layout_height="22.36dp"
 									android:layout_marginLeft="95dp"
@@ -92,7 +93,7 @@
 									android:text="@string/_10_hours__19_lessons_string"
 									android:textColor="@color/sketch_ek1_color" />
 
-								<TextView android:id="@+id/w25_"
+								<TextView android:id="@+id/advanced"
 									android:fontFamily="@font/relay_lato_regular"
 									android:textSize="11sp"
 									android:textColor="@color/sketch_ek1_color"

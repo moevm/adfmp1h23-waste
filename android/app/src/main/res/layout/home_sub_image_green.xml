@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+	<RelativeLayout android:id="@+id/sub_image"
+		android:layout_marginTop="20dp"
+		android:layout_marginStart="19dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+
+		<View   android:id="@+id/rectangle_561"
+			android:background="@drawable/rectangle_561_shape"
+			android:layout_marginStart="0dp"
+			android:layout_marginTop="0dp"
+			android:layout_width="57dp"
+			android:layout_height="55dp" />
+
+		<View   android:id="@+id/rectangle_562"
+			android:background="@drawable/rectangle_562_shape"
+			android:layout_marginStart="0dp"
+			android:layout_marginTop="0dp"
+			android:layout_width="57dp"
+			android:layout_height="55dp" />
+
+		<ImageView android:id="@+id/mask_group"
+			android:src="@drawable/mask_group"
+			android:contentDescription="mask_group"
+			android:layout_marginStart="0dp"
+			android:layout_marginTop="0dp"
+			android:layout_width="57dp"
+			android:layout_height="55dp" />
+
+		<ImageView android:id="@+id/mask_group_ek1"
+			android:src="@drawable/mask_group_ek1"
+			android:contentDescription="mask_group_ek1"
+			android:layout_marginStart="0dp"
+			android:layout_marginTop="0dp"
+			android:layout_width="57dp"
+			android:layout_height="55dp" />
+
+	</RelativeLayout>
+</RelativeLayout>
