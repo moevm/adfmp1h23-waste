@@ -6,12 +6,44 @@
         android:layout_height="match_parent"
         tools:context=".fragment.HomeFragment">
 
+    <include
+        android:id="@+id/background_second"
+        layout="@layout/home_background"
+        android:layout_width="413.79dp"
+        android:layout_height="907.86dp"
+        android:layout_marginTop="13dp"
+        app:layout_constraintTop_toBottomOf="@+id/main_text"
+        tools:layout_editor_absoluteX="-3dp">
+
+    </include>
+
     <LinearLayout
-            android:id="@+id/linearLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintTop_toTopOf="parent">
+        android:id="@+id/achievementsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+    <include
+        android:id="@+id/include3"
+        layout="@layout/home_topbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+    </include>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -40,30 +72,55 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <TextView
-                android:id="@+id/textView2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/firstHelloText"
-                android:textSize="24sp" />
-
-        <TextView
-                android:id="@+id/textView3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/secondHelloText"
-                android:textSize="34sp" />
-
     </LinearLayout>
 
+
     <LinearLayout
-            android:id="@+id/achievementsLayout"
-            android:orientation="vertical"
+        android:id="@+id/achievementLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="240dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.028">
+
+
+        <include
+            android:id="@+id/achieve1"
+            layout="@layout/home_achievement"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_height="105dp"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="245dp" />
+
+        <include
+            android:id="@+id/achieve2"
+            layout="@layout/home_achievement"
+            android:layout_width="wrap_content"
+            android:layout_height="105dp"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="245dp" />
+
+        <include
+            android:id="@+id/achieve3"
+            layout="@layout/home_achievement"
+            android:layout_width="wrap_content"
+            android:layout_height="105dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="245dp" />
+
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

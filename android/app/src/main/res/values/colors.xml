@@ -51,5 +51,13 @@
     <color name="_bg__frame_8_ek2_color">#000000</color>
     <color name="searchheader_color">#22262E</color>
     <color name="edittextsearch_color">#AFB3C1</color>
+    <color name="_bg__home_topbar_color">#000000</color>
+    <color name="home_topbar_greeting_slogan_color">#191C24</color>
+    <color name="_bg__home_achievement_ek2_color">#000000</color>
+    <color name="rectangle_912_color">#172441</color>
+    <color name="sketch_ek1_color">#FFFFFF</color>
+    <color name="ellipse_93_color">#28CC9E</color>
+    <color name="rectangle_561_color">#EAE6FC</color>
+    <color name="rectangle_562_color">#D9FFD5</color>
 
 </resources>

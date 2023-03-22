@@ -59,4 +59,9 @@
     <string name="about">About</string>
     <string name="back">back</string>
     <string name="button_instruction">button instruction</string>
+    <string name="home_topbar_greeting_slogan_string">  Пора собирать мусор!</string>
+    <string name="home_topbar_greeting_name_string"> Привет, test_user!</string>
+    <string name="sketch_ek1_string">Достижение</string>
+    <string name="_10_hours__19_lessons_string">Выполнено 50 из 365</string>
+    <string name="_25__string"></string>
 </resources>

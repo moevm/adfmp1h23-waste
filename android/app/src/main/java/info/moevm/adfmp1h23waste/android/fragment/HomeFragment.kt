@@ -41,9 +41,9 @@ class HomeFragment : Fragment() {
 
     private fun fillAchievements(layout: LinearLayout) {
         if (UserManager.instance.user == null) {
-            layout.addView(TextView(this.context).apply {
+            /*layout.addView(TextView(this.context).apply {
                 this.text = "Достижения доступны только авторизованным пользователям"
-            })
+            })*/
         }
     }
 
