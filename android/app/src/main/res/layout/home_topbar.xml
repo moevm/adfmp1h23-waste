@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		home_topbar
+	 *	@date 		Wednesday 22nd of March 2023 02:09:53 PM
+	 *	@title 		page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<RelativeLayout android:id="@+id/home_topbar"
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+
+			<RelativeLayout android:id="@+id/home_topbar_depth"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<ImageView android:id="@+id/home_topbar_background"
+					android:src="@drawable/home_topbar_background"
+					android:contentDescription="home_topbar_background"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="414dp"
+					android:layout_height="218dp" />
+
+				<TextView android:id="@+id/home_topbar_greeting_slogan"
+					android:fontFamily="@font/relay_asap_regular"
+					android:textSize="34sp"
+					android:textColor="@color/home_topbar_greeting_slogan_color"
+					android:layout_marginLeft="23dp"
+					android:layout_marginTop="137dp"
+					android:layout_width="417dp"
+					android:layout_height="82dp"
+					android:text="@string/home_topbar_greeting_slogan_string"
+					 />
+
+				<TextView
+					android:id="@+id/home_topbar_greeting_name"
+					android:layout_width="406.39999961853dp"
+					android:layout_height="74.39999961853dp"
+					android:layout_marginLeft="23dp"
+					android:layout_marginTop="95dp"
+					android:fontFamily="@font/relay_asap_regular"
+					android:text="@string/home_topbar_greeting_name_string"
+					android:textColor="@color/home_topbar_greeting_slogan_color"
+					android:textSize="25sp" />
+
+			</RelativeLayout>
+
+		</RelativeLayout>
+
+	</RelativeLayout>
+</RelativeLayout>
