@@ -1,5 +1,6 @@
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
-	android:layout_width="match_parent" android:layout_height="wrap_content" >
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 	<!-- 
 	/*
 	 *	This content is generated from the API File Info.
@@ -40,34 +41,35 @@
 <!--					android:layout_height="96dp" />-->
 
 
-				<RelativeLayout android:id="@+id/frame_8"
-					android:layout_marginTop="16dp"
-					android:layout_marginStart="24dp"
+				<RelativeLayout
+					android:id="@+id/frame_8"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					>
+					android:layout_marginStart="18dp"
+					android:layout_marginTop="58dp">
 
-					<ImageView android:id="@+id/backInstruction"
-						android:src="@drawable/vector_14"
-						android:contentDescription="vector_14"
-						 android:layout_marginStart="7dp"
-						android:layout_marginTop="9dp"
+					<ImageView
+						android:id="@+id/backInstruction"
 						android:layout_width="17.68dp"
-						android:layout_height="14.32dp" />
+						android:layout_height="14.32dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:contentDescription="vector_14"
+						android:src="@drawable/vector_14" />
 
 				</RelativeLayout>
 
-				<TextView android:id="@+id/instructionheader"
-					android:fontFamily="@font/relay_poppins_regular"
-					android:textStyle="bold"
-					android:textSize="24sp"
-					android:textColor="@color/instructionheader_color"
-					android:layout_marginLeft="64dp"
-					android:layout_marginTop="16dp"
+				<TextView
+					android:id="@+id/instructionheader"
 					android:layout_width="295dp"
 					android:layout_height="81dp"
+					android:layout_marginLeft="47dp"
+					android:layout_marginTop="47dp"
+					android:fontFamily="@font/relay_poppins_regular"
 					android:text="@string/instructionheader_string"
-					 />
+					android:textColor="@color/instructionheader_color"
+					android:textSize="24sp"
+					android:textStyle="bold" />
 
 			</RelativeLayout>
 		</RelativeLayout>
