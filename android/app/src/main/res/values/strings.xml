@@ -66,4 +66,23 @@
     <string name="_25__string"></string>
     <string name="mark_instruction_icon">mark_instruction_icon</string>
     <string name="circle_instruction_icon">circle_instruction_icon</string>
+    <string name="path_108">path_108</string>
+    <string name="path_109">path_109</string>
+    <string name="path_110">path_110</string>
+    <string name="path_5">path_5</string>
+    <string name="path_6">path_6</string>
+    <string name="path_7">path_7</string>
+    <string name="path_8">path_8</string>
+    <string name="path_9">path_9</string>
+    <string name="path_10">path_10</string>
+    <string name="mask_group">mask_group</string>
+    <string name="mask_group_ek1">mask_group_ek1</string>
+    <string name="path_14">path_14</string>
+    <string name="background_ek3">background_ek3</string>
+    <string name="register_string">Зарегистрироваться</string>
+    <string name="vector_14">vector_14</string>
+    <string name="stroke_1">stroke_1</string>
+    <string name="stroke_2">stroke_2</string>
+    <string name="stroke_3">stroke_3</string>
+    <string name="stroke_4">stroke_4</string>
 </resources>

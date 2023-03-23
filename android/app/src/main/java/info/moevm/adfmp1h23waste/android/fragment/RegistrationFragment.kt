@@ -58,16 +58,14 @@ class RegistrationFragment : Fragment() {
     ) {
         val linkTitle: TextView = inputFieldRegistrationBinding.paramText
         linkTitle.text = getText(inputFieldRegistration.paramName)
-        addRegistrationInputChangedListener(inputFieldRegistration, inputFieldRegistrationBinding)
+        addRegistrationInputChangedListener(inputFieldRegistrationBinding)
     }
 
     private fun addRegistrationInputChangedListener(
-        inputFieldRegistration: InputFieldRegistration,
         inputFieldRegistrationBinding: InputFieldRegistrationBinding
     ) {
         inputFieldRegistrationBinding.registrationTextField.addTextChangedListener(
             OnRegistrationInputTextChanged(
-                inputFieldRegistration
             )
         )
     }
@@ -79,9 +77,7 @@ class RegistrationFragment : Fragment() {
         REPEAT_PASSWORD(InputFieldRegistration(R.string.repeatPasswordHint, ""))
     }
 
-    class OnRegistrationInputTextChanged(
-        private val inputFieldRegistration: InputFieldRegistration
-    ) : TextWatcher {
+    class OnRegistrationInputTextChanged : TextWatcher {
 
         override fun afterTextChanged(s: Editable?) {
             // ignore

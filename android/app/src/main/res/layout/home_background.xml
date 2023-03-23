@@ -16,27 +16,15 @@
      *
      */
     -->
-    <RelativeLayout
-        android:id="@+id/background"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent">
 
-        <RelativeLayout
-            android:id="@+id/content_container"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/background_ek3"
+        android:layout_width="414dp"
+        android:layout_height="700dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="@string/background_ek3"
+        android:src="@drawable/background_ek3" />
 
 
-            <ImageView
-                android:id="@+id/background_ek3"
-                android:layout_width="414dp"
-                android:layout_height="700dp"
-                android:layout_marginStart="0dp"
-                android:layout_marginTop="0dp"
-                android:contentDescription="background_ek3"
-                android:src="@drawable/background_ek3" />
-
-        </RelativeLayout>
-
-    </RelativeLayout>
 </RelativeLayout>

@@ -16,10 +16,16 @@
      *
      */
     -->
+
+
+
+
     <ScrollView
         android:id="@+id/fieldtext"
         android:layout_width="wrap_content"
         android:layout_height="match_parent">
+
+
 
         <RelativeLayout
             android:id="@+id/content_container"
@@ -42,7 +48,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
-
                     <RelativeLayout
                         android:id="@+id/fieldtextimage"
                         android:layout_marginTop="24dp"
@@ -55,7 +60,7 @@
                             android:fontFamily="@font/relay_poppins_bold"
                             android:textSize="16sp"
                             android:textColor="@color/fieldtextinput_color"
-                            android:layout_marginLeft="16dp"
+                            android:layout_marginStart="16dp"
                             android:layout_marginTop="14dp"
                             android:layout_width="274dp"
                             android:layout_height="31dp"
@@ -69,7 +74,7 @@
                         android:textStyle="bold"
                         android:textSize="12sp"
                         android:textColor="@color/fieldtextpropertyname_color"
-                        android:layout_marginLeft="6dp"
+                        android:layout_marginStart="6dp"
                         android:layout_marginTop="0dp"
                         android:layout_width="47dp"
                         android:layout_height="20dp"

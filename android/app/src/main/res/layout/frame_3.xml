@@ -1,5 +1,6 @@
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
-	android:layout_width="match_parent" android:layout_height="wrap_content" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
 	<!-- 
 	/*
 	 *	This content is generated from the API File Info.
@@ -15,79 +16,51 @@
 	 *
 	 */
 	-->
-	<ScrollView android:id="@+id/frame_3" 
-		android:layout_width="wrap_content" 
-		android:layout_height="match_parent" >
+	<RelativeLayout android:id="@+id/header"
+		android:layout_marginTop="0dp"
+		android:layout_marginStart="0dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
 
-		<RelativeLayout android:id="@+id/content_container" 
-			android:layout_width="wrap_content" 
-			android:layout_height="wrap_content" >
+		<TextView android:id="@+id/usingsince"
+			android:fontFamily="@font/relay_poppins_regular"
+			android:layout_gravity="center_horizontal|center"
+			android:gravity="center"
+			android:textSize="12sp"
+			android:textColor="@color/usingsince_color"
+			android:layout_marginStart="57dp"
+			android:layout_marginTop="204dp"
+			android:layout_width="224dp"
+			android:layout_height="28dp"
+			android:text="@string/usingsince_string"
+			/>
+
+		<TextView
+			android:id="@+id/username"
+			android:layout_width="268dp"
+			android:layout_height="49dp"
+			android:layout_marginStart="45dp"
+			android:layout_marginTop="80dp"
+			android:fontFamily="@font/relay_poppins_regular"
+			android:text="@string/username_string"
+			android:textColor="@color/username_color"
+			android:textSize="20sp"
+			android:textStyle="bold" />
+
+		<TextView android:id="@+id/profiletext"
+			android:fontFamily="@font/relay_poppins_regular"
+			android:textStyle="bold"
+			android:textSize="24sp"
+			android:textColor="@color/username_color"
+			android:layout_marginStart="0dp"
+			android:layout_marginTop="0dp"
+			android:layout_width="144dp"
+			android:layout_height="49dp"
+			android:text="@string/profiletext_string"
+			/>
+
+	</RelativeLayout>
 
 
-
-			<RelativeLayout android:id="@+id/page_frame_3_ek1"
-				android:layout_marginTop="0dp"
-				android:layout_marginStart="0dp"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				>
-
-<!--				<View   android:id="@+id/_bg__frame_3_ek2"-->
-<!--					android:background="@drawable/_bg__frame_3_ek2_shape"-->
-<!--					 android:layout_marginStart="0dp"-->
-<!--					android:layout_marginTop="0dp"-->
-<!--					android:layout_width="300dp"-->
-<!--					android:layout_height="224dp" />-->
-
-
-				<RelativeLayout android:id="@+id/header"
-					android:layout_marginTop="0dp"
-					android:layout_marginStart="0dp"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					>
-
-					<TextView android:id="@+id/usingsince"
-						android:fontFamily="@font/relay_poppins_regular"
-						android:layout_gravity="center_horizontal|center"
-						android:gravity="center"
-						android:textSize="12sp"
-						android:textColor="@color/usingsince_color"
-						android:layout_marginLeft="57dp"
-						android:layout_marginTop="204dp"
-						android:layout_width="224dp"
-						android:layout_height="28dp"
-						android:text="@string/usingsince_string"
-						 />
-
-					<TextView
-						android:id="@+id/username"
-						android:layout_width="268dp"
-						android:layout_height="49dp"
-						android:layout_marginLeft="45dp"
-						android:layout_marginTop="80dp"
-						android:fontFamily="@font/relay_poppins_regular"
-						android:text="@string/username_string"
-						android:textColor="@color/username_color"
-						android:textSize="20sp"
-						android:textStyle="bold" />
-
-					<TextView android:id="@+id/profiletext"
-						android:fontFamily="@font/relay_poppins_regular"
-						android:textStyle="bold"
-						android:textSize="24sp"
-						android:textColor="@color/username_color"
-						android:layout_marginLeft="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="144dp"
-						android:layout_height="49dp"
-						android:text="@string/profiletext_string"
-						 />
-
-				</RelativeLayout>
-
-			</RelativeLayout>
-		</RelativeLayout>
-
-	</ScrollView>
-</HorizontalScrollView>
+</RelativeLayout>

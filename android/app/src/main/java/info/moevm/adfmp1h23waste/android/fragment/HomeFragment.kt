@@ -40,14 +40,17 @@ class HomeFragment : Fragment() {
         }
     }
 
+    private fun fillAchievementDescription(achievement: Achievement): String {
+        return "Выполнено " + round(achievement.current).toInt().toString() +
+                " из " + round(achievement.max).toInt().toString()
+    }
+
     private fun fillAchievement(achievementBinding: AchievementBinding, achievement: Achievement) {
         val linkTitle = achievementBinding.title
         val linkDescription = achievementBinding.description
 
         linkTitle.text = achievement.name
-        linkDescription.text = "Выполнено " +
-                round(achievement.current).toInt().toString() +
-                " из " + round(achievement.max).toInt().toString()
+        linkDescription.text = fillAchievementDescription(achievement)
     }
 
     private fun fillAchievements() {

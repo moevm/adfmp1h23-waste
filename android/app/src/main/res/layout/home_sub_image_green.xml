@@ -25,7 +25,7 @@
 
 		<ImageView android:id="@+id/mask_group"
 			android:src="@drawable/mask_group"
-			android:contentDescription="mask_group"
+			android:contentDescription="@string/mask_group"
 			android:layout_marginStart="0dp"
 			android:layout_marginTop="0dp"
 			android:layout_width="57dp"
@@ -33,7 +33,7 @@
 
 		<ImageView android:id="@+id/mask_group_ek1"
 			android:src="@drawable/mask_group_ek1"
-			android:contentDescription="mask_group_ek1"
+			android:contentDescription="@string/mask_group_ek1"
 			android:layout_marginStart="0dp"
 			android:layout_marginTop="0dp"
 			android:layout_width="57dp"
