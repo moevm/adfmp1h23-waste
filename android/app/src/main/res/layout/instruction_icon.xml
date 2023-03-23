@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+	<RelativeLayout android:id="@+id/instruction_icon"
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_instruction_icon_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<ImageView android:id="@+id/mark_instruction_icon"
+					android:src="@drawable/mark_instruction_icon"
+					android:contentDescription="@string/mark_instruction_icon"
+					android:layout_marginStart="11.76dp"
+					android:layout_marginTop="8.75dp"
+					android:layout_width="11.47dp"
+					android:layout_height="17.5dp" />
+
+				<ImageView android:id="@+id/circle_instruction_icon"
+					android:src="@drawable/circle_instruction_icon"
+					android:contentDescription="@string/circle_instruction_icon"
+					android:layout_marginStart="2.92dp"
+					android:layout_marginTop="2.92dp"
+					android:layout_width="29.17dp"
+					android:layout_height="29.17dp" />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</RelativeLayout>
+</RelativeLayout>

@@ -64,4 +64,6 @@
     <string name="sketch_ek1_string">Достижение</string>
     <string name="_10_hours__19_lessons_string">Выполнено 50 из 365</string>
     <string name="_25__string"></string>
+    <string name="mark_instruction_icon">mark_instruction_icon</string>
+    <string name="circle_instruction_icon">circle_instruction_icon</string>
 </resources>

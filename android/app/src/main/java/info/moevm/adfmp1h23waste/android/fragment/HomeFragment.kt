@@ -32,7 +32,7 @@ class HomeFragment : Fragment() {
     }
 
     private fun setUpTransitionButtons() {
-        binding.imageButton.setOnClickListener {
+        binding.imageButton.contentContainer.setOnClickListener {
             findNavController().navigate(R.id.action_FirstFragment_to_instructionFragment)
         }
         binding.About.setOnClickListener {

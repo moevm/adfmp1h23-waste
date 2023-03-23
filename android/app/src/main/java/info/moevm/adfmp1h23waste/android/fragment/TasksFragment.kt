@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import info.moevm.adfmp1h23waste.android.R
 import info.moevm.adfmp1h23waste.android.databinding.FragmentTasksBinding
 import info.moevm.adfmp1h23waste.android.databinding.SelectAnswerBinding
@@ -28,6 +29,11 @@ class TasksFragment : Fragment() {
         _binding = FragmentTasksBinding.inflate(inflater, container, false)
         testStartTask(Tasks.FIRST.taskEnum)
         binding.buttonNextTask.setOnClickListener { onClickNextTask() }
+        binding.imageButton.contentContainer.setOnClickListener {
+            findNavController().navigate (
+                R.id.action_TasksFragment_to_InstructionFragment
+            )
+        }
         return binding.root
     }
 
