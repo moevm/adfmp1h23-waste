@@ -2,10 +2,13 @@ package info.moevm.adfmp1h23waste.android.fragment
 
 import android.os.Bundle
 import android.text.Editable
+import android.text.InputType
 import android.text.TextWatcher
+import android.text.method.PasswordTransformationMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.EditText
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
@@ -52,12 +55,20 @@ class RegistrationFragment : Fragment() {
         )
     }
 
+    private fun changeToPassword(inputFieldRegistration: InputFieldRegistration, linkField: EditText) {
+        if(inputFieldRegistration.inputType == InputType.TYPE_TEXT_VARIATION_PASSWORD) {
+            linkField.transformationMethod = PasswordTransformationMethod.getInstance();
+        }
+    }
+
     private fun fillInputFieldRegistration(
         inputFieldRegistration: InputFieldRegistration,
         inputFieldRegistrationBinding: InputFieldRegistrationBinding
     ) {
         val linkTitle: TextView = inputFieldRegistrationBinding.paramText
+        val linkField: EditText = inputFieldRegistrationBinding.registrationTextField
         linkTitle.text = getText(inputFieldRegistration.paramName)
+        changeToPassword(inputFieldRegistration, linkField)
         addRegistrationInputChangedListener(inputFieldRegistrationBinding)
     }
 
@@ -71,10 +82,10 @@ class RegistrationFragment : Fragment() {
     }
 
     enum class InputFieldsRegistration(val inputFieldRegistration: InputFieldRegistration) {
-        NAME(InputFieldRegistration(R.string.nameField, "")),
-        EMAIL(InputFieldRegistration(R.string.emailField, "")),
-        PASSWORD(InputFieldRegistration(R.string.passwordHint, "")),
-        REPEAT_PASSWORD(InputFieldRegistration(R.string.repeatPasswordHint, ""))
+        NAME(InputFieldRegistration(R.string.nameField, "", InputType.TYPE_CLASS_TEXT)),
+        EMAIL(InputFieldRegistration(R.string.emailField, "", InputType.TYPE_CLASS_TEXT)),
+        PASSWORD(InputFieldRegistration(R.string.passwordHint, "", InputType.TYPE_TEXT_VARIATION_PASSWORD)),
+        REPEAT_PASSWORD(InputFieldRegistration(R.string.repeatPasswordHint, "",InputType.TYPE_TEXT_VARIATION_PASSWORD))
     }
 
     class OnRegistrationInputTextChanged : TextWatcher {
