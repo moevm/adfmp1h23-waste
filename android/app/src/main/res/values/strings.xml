@@ -63,7 +63,7 @@
     <string name="home_topbar_greeting_name_string"> Привет, test_user!</string>
     <string name="sketch_ek1_string">Достижение</string>
     <string name="_10_hours__19_lessons_string">Выполнено 50 из 365</string>
-    <string name="_25__string"></string>
+    <string name="_25__string"> </string>
     <string name="mark_instruction_icon">mark_instruction_icon</string>
     <string name="circle_instruction_icon">circle_instruction_icon</string>
     <string name="path_108">path_108</string>
@@ -76,12 +76,12 @@
     <string name="path_9">path_9</string>
     <string name="path_10">path_10</string>
     <string name="mask_group">mask_group</string>
-    <string name="mask_group_ek1">mask_group_ek1</string>
+    <string name="mask_group_ek1">mask_group_ek!</string>
     <string name="path_14">path_14</string>
     <string name="background_ek3">background_ek3</string>
     <string name="register_string">Зарегистрироваться</string>
     <string name="vector_14">vector_14</string>
-    <string name="stroke_1">stroke_1</string>
+    <string name="stroke_1">stroke_!</string>
     <string name="stroke_2">stroke_2</string>
     <string name="stroke_3">stroke_3</string>
     <string name="stroke_4">stroke_4</string>
@@ -92,11 +92,12 @@
     <string name="background">background</string>
     <string name="knob">knob</string>
     <string name="polygon_6">polygon_6</string>
-    <string name="calendar_ek1">calendar_ek1</string>
+    <string name="calendar_ek1">calendar_ek!</string>
     <string name="tabbuttonvector">tabbuttonvector</string>
     <string name="completed">\"Выполнено \"</string>
     <string name="_from_">\" из \"</string>
     <string name="correct">Верно!</string>
     <string name="incorrect">Неверно!</string>
     <string name="select_garbage_bag">Выберите корзину для мусора</string>
+    <string name="Information">Приложение направлено на помощь пользователям с обучением в разделении мусора: В разделе тренировки можно выполнить задание по выбору мусорной корзины, в которую правильно отправить мусор</string>
 </resources>
