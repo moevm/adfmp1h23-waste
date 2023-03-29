@@ -29,6 +29,7 @@ class SearchFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         resultView = TextView(this.context)
+        // Инициализация текста поиска
         binding.searchLayout.searchField.addTextChangedListener(OnSearchTestChanged(resultView))
     }
 
@@ -37,11 +38,9 @@ class SearchFragment : Fragment() {
     ) : TextWatcher {
 
         override fun afterTextChanged(s: Editable?) {
-            // ignore
         }
 
         override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
-            // ignore
         }
 
         override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
