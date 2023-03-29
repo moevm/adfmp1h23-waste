@@ -12,7 +12,7 @@
 
         <include
             android:id="@+id/instructionHeader"
-            layout="@layout/frame_7"
+            layout="@layout/instruction_header"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent"

@@ -12,7 +12,7 @@
 
         <include
             android:id="@+id/searchLayout"
-            layout="@layout/frame_8"
+            layout="@layout/search"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="47dp"
