@@ -37,18 +37,22 @@ class RegistrationFragment : Fragment() {
     }
 
     private fun fillsInputFieldsRegistration() {
+        // Имя
         fillInputFieldRegistration(
             InputFieldsRegistration.NAME.inputFieldRegistration,
             binding.inputFieldName
         )
+        // Пароль
         fillInputFieldRegistration(
             InputFieldsRegistration.EMAIL.inputFieldRegistration,
             binding.inputFieldEmail
         )
+        // Почта
         fillInputFieldRegistration(
             InputFieldsRegistration.PASSWORD.inputFieldRegistration,
             binding.inputFieldPassword
         )
+        // Повтор пароля
         fillInputFieldRegistration(
             InputFieldsRegistration.REPEAT_PASSWORD.inputFieldRegistration,
             binding.inputFieldRepeatPassword
@@ -91,16 +95,12 @@ class RegistrationFragment : Fragment() {
     class OnRegistrationInputTextChanged : TextWatcher {
 
         override fun afterTextChanged(s: Editable?) {
-            // ignore
         }
 
         override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
-            // ignore
         }
 
         override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
-            //inputFieldRegistration.inputText = (s ?: "empty") as String
-            // ignore
         }
     }
 }
