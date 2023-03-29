@@ -59,16 +59,15 @@ class HomeFragment : Fragment() {
         fillAchievement(binding.achievement3, Achievements.THIRD_ACHIEVEMENT.achievement)
     }
 
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
-    }
-
-
     enum class Achievements(val achievement: Achievement) {
         FIRST_ACHIEVEMENT(Achievement("Всего заданий", 94.0, 365.0)),
         SECOND_ACHIEVEMENT(Achievement( "Подряд без ошибок", 94.0, 365.0)),
         THIRD_ACHIEVEMENT(Achievement( "Процент правильных", 94.0, 365.0))
+    }
+    
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
     }
 }
 
