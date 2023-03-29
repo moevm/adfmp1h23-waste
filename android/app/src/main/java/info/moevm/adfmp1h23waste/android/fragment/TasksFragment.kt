@@ -27,7 +27,7 @@ class TasksFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentTasksBinding.inflate(inflater, container, false)
-        testStartTask(Tasks.FIRST.taskEnum)
+        testStartTask(Tasks.FIRST_TASK.taskEnum)
         binding.buttonNextTask.setOnClickListener { onClickNextTask() }
         binding.imageButton.contentContainer.setOnClickListener {
             findNavController().navigate (
@@ -68,9 +68,9 @@ class TasksFragment : Fragment() {
 
     private fun testStartTask(task: Task) {
         fillTask(task, binding.trashImage)
-        fillAnswer(Answers.FIRST.answerEnum, binding.selectAnswer1)
-        fillAnswer(Answers.SECOND.answerEnum, binding.selectAnswer2)
-        fillAnswer(Answers.THIRD.answerEnum, binding.selectAnswer3)
+        fillAnswer(Answers.FIRST_ANSWER.answerEnum, binding.selectAnswer1)
+        fillAnswer(Answers.SECOND_ANSWER.answerEnum, binding.selectAnswer2)
+        fillAnswer(Answers.THIRD_ANSWER.answerEnum, binding.selectAnswer3)
     }
 
     private fun changeImage(imageView: ImageView, imageId: Int) {
@@ -100,7 +100,7 @@ class TasksFragment : Fragment() {
 
     private fun onClickNextTask() {
         changeTextTask(getString(R.string.select_garbage_bag))
-        testStartTask(Tasks.SECOND.taskEnum)
+        testStartTask(Tasks.SECOND_TASK.taskEnum)
     }
 
     private fun checkCorrectAnswer(selectAnswerBinding: SelectAnswerBinding) {
@@ -117,14 +117,14 @@ class TasksFragment : Fragment() {
     }
 
     enum class Answers(val answerEnum: Answer) {
-        FIRST(Answer(R.drawable.file, "1", "Корзина")),
-        SECOND(Answer(R.drawable.file, "2", "Мусорка")),
-        THIRD(Answer(R.drawable.file, "3", "Пакет"))
+        FIRST_ANSWER(Answer(R.drawable.file, "1", "Корзина")),
+        SECOND_ANSWER(Answer(R.drawable.file, "2", "Мусорка")),
+        THIRD_ANSWER(Answer(R.drawable.file, "3", "Пакет"))
     }
 
     enum class Tasks(val taskEnum: Task) {
-        FIRST(Task(R.drawable.trashimage_ek4, "Бутылка пластиковая", "Мусорка")),
-        SECOND(Task(R.drawable.trashimage_ek4, "Бутылка не пластиковая", "Пакет"))
+        FIRST_TASK(Task(R.drawable.trashimage_ek4, "Бутылка пластиковая", "Мусорка")),
+        SECOND_TASK(Task(R.drawable.trashimage_ek4, "Бутылка не пластиковая", "Пакет"))
     }
 
     enum class AnswersXml(val answerXml: Int) {
