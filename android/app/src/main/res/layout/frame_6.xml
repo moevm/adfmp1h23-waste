@@ -75,7 +75,7 @@
 						android:layout_marginTop="47dp"
 						android:fontFamily="@font/relay_poppins_regular"
 						android:text="@string/notificationtext_string"
-						android:textColor="@color/notificationtext_color"
+						android:textColor="@color/notification_text_color"
 						android:textSize="24sp"
 						android:textStyle="bold" />
 

@@ -52,7 +52,7 @@
                         android:fontFamily="@font/relay_cabin_regular"
                         android:gravity="center"
                         android:text="@string/tabbuttontext_string"
-                        android:textColor="@color/tabbutton_color"
+                        android:textColor="@color/tab_button_color"
                         android:textSize="11.6sp" />
 
 

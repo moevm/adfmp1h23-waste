@@ -4,6 +4,6 @@
 	android:shape="rectangle" >
 	<corners android:radius="20dp" />
 	<stroke android:color="#e4e6ea" android:width="1dp" />
-	<solid android:color="@color/searchbg_color" />
+	<solid android:color="@color/search_bg_color" />
 </shape>
 

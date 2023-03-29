@@ -106,7 +106,7 @@
                         android:fontFamily="@font/relay_cabin_bold"
                         android:text="@string/trashtext_string"
                         android:textAlignment="center"
-                        android:textColor="@color/trashtext_color"
+                        android:textColor="@color/trash_text_color"
                         android:textSize="24.4sp"
                         android:textStyle="bold" />
 

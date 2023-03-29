@@ -54,7 +54,7 @@
 			android:fontFamily="@font/relay_poppins_regular"
 			android:textStyle="bold"
 			android:textSize="18sp"
-			android:textColor="@color/searchvalue_color"
+			android:textColor="@color/search_value_color"
 			android:layout_marginStart="0dp"
 			android:layout_marginTop="20dp"
 			android:layout_width="42dp"

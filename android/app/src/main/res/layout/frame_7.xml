@@ -67,7 +67,7 @@
 					android:layout_marginTop="47dp"
 					android:fontFamily="@font/relay_poppins_regular"
 					android:text="@string/instructionheader_string"
-					android:textColor="@color/instructionheader_color"
+					android:textColor="@color/instruction_header_color"
 					android:textSize="24sp"
 					android:textStyle="bold" />
 
