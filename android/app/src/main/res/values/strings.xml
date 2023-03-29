@@ -38,7 +38,7 @@
     <string name="notifications_string"> Напоминания </string>
     <string name="notificationtext_string"> Напоминания </string>
     <string name="notificationswitch_ek1_string"> Включить напоминания </string>
-    <string name="weekday_string"> Пятница </string>
+    <string name="weekday_string"> Понедельник </string>
     <string name="notificationweekdays_ek1_string"> Дни напоминаний</string>
     <string name="notificationtime_ek1_string"> Время напоминаний </string>
     <string name="notificationtimeset_string">7:30 PM</string>
@@ -46,10 +46,10 @@
     <string name="login_string">Войти</string>
     <string name="fieldtextinput_string">Параметр</string>
     <string name="fieldtextpropertyname_string">Ввод</string>
-    <string name="nameField">ИМЯ</string>
-    <string name="emailField">ПОЧТА</string>
-    <string name="passwordHint">ПАРОЛЬ</string>
-    <string name="repeatPasswordHint">ПОВТОРИТЕ ПАРОЛЬ</string>
+    <string name="nameField">Имя</string>
+    <string name="emailField">Почта</string>
+    <string name="passwordHint">Пароль</string>
+    <string name="repeatPasswordHint">Повторите пароль</string>
     <string name="emailFieldAuth">Почта</string>
     <string name="passwordHintAuth">Пароль</string>
     <string name="instructionheader_string"> Инструкция и информация </string>
@@ -60,7 +60,7 @@
     <string name="back">back</string>
     <string name="button_instruction">button instruction</string>
     <string name="home_topbar_greeting_slogan_string">  Пора собирать мусор!</string>
-    <string name="home_topbar_greeting_name_string"> Привет, test_user!</string>
+    <string name="home_topbar_greeting_name_string"> Привет, Андрей!</string>
     <string name="sketch_ek1_string">Достижение</string>
     <string name="_10_hours__19_lessons_string">Выполнено 50 из 365</string>
     <string name="_25__string"> </string>
@@ -80,7 +80,7 @@
     <string name="path_14">path_14</string>
     <string name="background_ek3">background_ek3</string>
     <string name="register_string">Зарегистрироваться</string>
-    <string name="vector_14">vector_14</string>
+    <string name="vector_14">Вектор</string>
     <string name="stroke_1">stroke_!</string>
     <string name="stroke_2">stroke_2</string>
     <string name="stroke_3">stroke_3</string>
@@ -99,5 +99,5 @@
     <string name="correct">Верно!</string>
     <string name="incorrect">Неверно!</string>
     <string name="select_garbage_bag">Выберите корзину для мусора</string>
-    <string name="Information">Приложение направлено на помощь пользователям с обучением в разделении мусора: В разделе тренировки можно выполнить задание по выбору мусорной корзины, в которую правильно отправить мусор</string>
+    <string name="Information">Приложение направлено на помощь пользователям с обучением в разделении мусора: В разделе тренировки можно выполнить задание по выбору мусорной корзины, в которую необходимо отправить мусор</string>
 </resources>
