@@ -41,8 +41,8 @@ class HomeFragment : Fragment() {
     }
 
     private fun fillAchievementDescription(achievement: Achievement): String {
-        return "Выполнено " + round(achievement.current).toInt().toString() +
-                " из " + round(achievement.max).toInt().toString()
+        return getString(R.string.completed) + round(achievement.current).toInt().toString() +
+                getString(R.string._from_) + round(achievement.max).toInt().toString()
     }
 
     private fun fillAchievement(achievementBinding: AchievementBinding, achievement: Achievement) {

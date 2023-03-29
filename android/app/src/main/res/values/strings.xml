@@ -85,4 +85,18 @@
     <string name="stroke_2">stroke_2</string>
     <string name="stroke_3">stroke_3</string>
     <string name="stroke_4">stroke_4</string>
+    <string name="home_topbar_background">home_topbar_background</string>
+    <string name="_123">123</string>
+    <string name="file">file</string>
+    <string name="vector_15">vector_15</string>
+    <string name="background">background</string>
+    <string name="knob">knob</string>
+    <string name="polygon_6">polygon_6</string>
+    <string name="calendar_ek1">calendar_ek1</string>
+    <string name="tabbuttonvector">tabbuttonvector</string>
+    <string name="completed">\"Выполнено \"</string>
+    <string name="_from_">\" из \"</string>
+    <string name="correct">Верно!</string>
+    <string name="incorrect">Неверно!</string>
+    <string name="select_garbage_bag">Выберите корзину для мусора</string>
 </resources>

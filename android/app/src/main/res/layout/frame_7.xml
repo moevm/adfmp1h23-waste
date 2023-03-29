@@ -63,7 +63,7 @@
 					android:id="@+id/instructionheader"
 					android:layout_width="295dp"
 					android:layout_height="81dp"
-					android:layout_marginLeft="47dp"
+					android:layout_marginStart="47dp"
 					android:layout_marginTop="47dp"
 					android:fontFamily="@font/relay_poppins_regular"
 					android:text="@string/instructionheader_string"

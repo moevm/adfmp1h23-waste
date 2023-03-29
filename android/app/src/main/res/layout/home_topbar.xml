@@ -19,7 +19,7 @@
 
 	<ImageView android:id="@+id/home_topbar_background"
 		android:src="@drawable/home_topbar_background"
-		android:contentDescription="home_topbar_background"
+		android:contentDescription="@string/home_topbar_background"
 		android:layout_marginStart="0dp"
 		android:layout_marginTop="0dp"
 		android:layout_width="414dp"
@@ -40,7 +40,7 @@
 		android:id="@+id/home_topbar_greeting_name"
 		android:layout_width="406.39999961853dp"
 		android:layout_height="74.39999961853dp"
-		android:layout_marginLeft="23dp"
+		android:layout_marginStart="23dp"
 		android:layout_marginTop="95dp"
 		android:fontFamily="@font/relay_asap_regular"
 		android:text="@string/home_topbar_greeting_name_string"

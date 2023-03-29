@@ -47,7 +47,7 @@
 						android:id="@+id/description"
 						android:layout_width="57.599999904633dp"
 						android:layout_height="30.599999904633dp"
-						android:layout_marginLeft="8dp"
+						android:layout_marginStart="8dp"
 						android:layout_marginTop="107dp"
 						android:fontFamily="@font/relay_cabin_regular"
 						android:text="@string/description_string"
@@ -58,7 +58,7 @@
 						android:id="@+id/title"
 						android:layout_width="26.5dp"
 						android:layout_height="33.5dp"
-						android:layout_marginLeft="14dp"
+						android:layout_marginStart="14dp"
 						android:layout_marginTop="84dp"
 						android:fontFamily="@font/relay_poppins_regular"
 						android:text="@string/title_string"
@@ -82,7 +82,7 @@
 						android:layout_height="50dp"
 						android:layout_marginStart="0dp"
 						android:layout_marginTop="0dp"
-						android:contentDescription="file"
+						android:contentDescription="@string/file"
 						android:src="@drawable/file" />
 
 				</RelativeLayout>

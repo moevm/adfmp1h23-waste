@@ -1,5 +1,6 @@
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
-	android:layout_width="match_parent" android:layout_height="wrap_content" >
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
 	<!-- 
 	/*
 	 *	This content is generated from the API File Info.
@@ -72,7 +73,7 @@
 
 							<ImageView android:id="@+id/calendar_ek1"
 								android:src="@drawable/calendar_ek1"
-								android:contentDescription="calendar_ek1"
+								android:contentDescription="@string/calendar_ek1"
 								 android:layout_marginStart="0dp"
 								android:layout_marginTop="0dp"
 								android:layout_width="18dp"
@@ -90,7 +91,7 @@
 					android:gravity="center"
 					android:textSize="16sp"
 					android:textColor="@color/notifications_color"
-					android:layout_marginLeft="53dp"
+					android:layout_marginStart="53dp"
 					android:layout_marginTop="8dp"
 					android:layout_width="125dp"
 					android:layout_height="35dp"

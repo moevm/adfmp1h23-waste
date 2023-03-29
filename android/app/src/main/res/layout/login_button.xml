@@ -40,7 +40,7 @@
                     android:layout_height="150.6dp"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp"
-                    android:contentDescription="123"
+                    android:contentDescription="@string/_123"
                     android:src="@drawable/loginbutton" />
 
                 <View
@@ -57,7 +57,7 @@
                     android:layout_width="342dp"
                     android:layout_height="44dp"
                     android:layout_gravity="center_horizontal|center"
-                    android:layout_marginLeft="51.53dp"
+                    android:layout_marginStart="51.53dp"
                     android:layout_marginTop="36dp"
                     android:fontFamily="@font/relay_poppins_semibold"
                     android:gravity="center"

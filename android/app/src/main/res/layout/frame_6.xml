@@ -62,7 +62,7 @@
 							android:layout_height="14.32dp"
 							android:layout_marginStart="0dp"
 							android:layout_marginTop="0dp"
-							android:contentDescription="vector_14"
+							android:contentDescription="@string/vector_15"
 							android:src="@drawable/vector_14" />
 
 					</RelativeLayout>
@@ -71,7 +71,7 @@
 						android:id="@+id/notificationtext"
 						android:layout_width="208dp"
 						android:layout_height="49dp"
-						android:layout_marginLeft="47dp"
+						android:layout_marginStart="47dp"
 						android:layout_marginTop="47dp"
 						android:fontFamily="@font/relay_poppins_regular"
 						android:text="@string/notificationtext_string"
@@ -111,7 +111,7 @@
 								android:layout_height="31dp"
 								android:layout_marginStart="0dp"
 								android:layout_marginTop="0dp"
-								android:contentDescription="background"
+								android:contentDescription="@string/background"
 								android:src="@drawable/background" />
 
 							<ImageView
@@ -120,7 +120,7 @@
 								android:layout_height="27dp"
 								android:layout_marginStart="22dp"
 								android:layout_marginTop="3dp"
-								android:contentDescription="knob"
+								android:contentDescription="@string/knob"
 								android:src="@drawable/knob" />
 
 						</RelativeLayout>
@@ -132,7 +132,7 @@
 						android:layout_width="253dp"
 						android:layout_height="34dp"
 						android:layout_gravity="center_horizontal|center"
-						android:layout_marginLeft="0dp"
+						android:layout_marginStart="0dp"
 						android:layout_marginTop="6dp"
 						android:fontFamily="@font/relay_cabin_regular"
 						android:text="@string/notificationswitch_ek1_string"
@@ -162,7 +162,7 @@
 							android:layout_width="122dp"
 							android:layout_height="29.5dp"
 							android:layout_gravity="center_horizontal|center"
-							android:layout_marginLeft="8dp"
+							android:layout_marginStart="8dp"
 							android:layout_marginTop="8dp"
 							android:fontFamily="@font/relay_poppins_regular"
 							android:gravity="center"
@@ -176,7 +176,7 @@
 							android:layout_height="8dp"
 							android:layout_marginStart="126dp"
 							android:layout_marginTop="16dp"
-							android:contentDescription="polygon_6"
+							android:contentDescription="@string/polygon_6"
 							android:src="@drawable/polygon_6" />
 
 					</RelativeLayout>
@@ -185,7 +185,7 @@
 						android:id="@+id/notificationweekdays_ek1"
 						android:layout_width="185dp"
 						android:layout_height="31dp"
-						android:layout_marginLeft="0dp"
+						android:layout_marginStart="0dp"
 						android:layout_marginTop="8dp"
 						android:fontFamily="@font/relay_cabin_regular"
 						android:text="@string/notificationweekdays_ek1_string"
@@ -206,7 +206,7 @@
 						android:id="@+id/notificationtime_ek1"
 						android:layout_width="185dp"
 						android:layout_height="31dp"
-						android:layout_marginLeft="0dp"
+						android:layout_marginStart="0dp"
 						android:layout_marginTop="10dp"
 						android:fontFamily="@font/relay_cabin_regular"
 						android:text="@string/notificationtime_ek1_string"
@@ -226,7 +226,7 @@
 							android:layout_width="138dp"
 							android:layout_height="29.5dp"
 							android:layout_gravity="center_horizontal|center"
-							android:layout_marginLeft="8dp"
+							android:layout_marginStart="8dp"
 							android:layout_marginTop="10dp"
 							android:fontFamily="@font/relay_poppins_regular"
 							android:gravity="center"

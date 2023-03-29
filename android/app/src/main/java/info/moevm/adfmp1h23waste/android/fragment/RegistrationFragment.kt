@@ -57,7 +57,7 @@ class RegistrationFragment : Fragment() {
 
     private fun changeToPassword(inputFieldRegistration: InputFieldRegistration, linkField: EditText) {
         if(inputFieldRegistration.inputType == InputType.TYPE_TEXT_VARIATION_PASSWORD) {
-            linkField.transformationMethod = PasswordTransformationMethod.getInstance();
+            linkField.transformationMethod = PasswordTransformationMethod.getInstance()
         }
     }
 

@@ -46,17 +46,17 @@ class TasksFragment : Fragment() {
         val linkTitle: TextView = selectAnswerBinding.title
         val linkDescription: TextView = selectAnswerBinding.description
 
-        changeAnswer(selectAnswerBinding, AnswerXmls.SELECT.answerXml)
+        changeAnswer(selectAnswerBinding, AnswersXml.SELECT.answerXml)
         changeImage(selectAnswerBinding.file, answer.imageId)
         linkTitle.text = answer.title
         linkDescription.text = answer.description
         selectAnswerBinding.button.setOnClickListener { onClickAnswer(selectAnswerBinding) }
     }
 
-    private fun fillTask(task: Task, trashimageBinding: TrashImageBinding) {
-        val linkTitle: TextView = trashimageBinding.trashtext
+    private fun fillTask(task: Task, trashImageBinding: TrashImageBinding) {
+        val linkTitle: TextView = trashImageBinding.trashtext
 
-        changeImage(trashimageBinding.trashimageEk4, task.imageId)
+        changeImage(trashImageBinding.trashimageEk4, task.imageId)
         testCorrectAnswer = task.correctAnswer
         linkTitle.text = task.title
     }
@@ -89,23 +89,23 @@ class TasksFragment : Fragment() {
 
     private fun checkAnswer(selectAnswerBinding: SelectAnswerBinding) {
         if (selectAnswerBinding.description.text.toString() == testCorrectAnswer) {
-            changeAnswer(selectAnswerBinding, AnswerXmls.CORRECT.answerXml)
-            changeTextTask("Верно!")
+            changeAnswer(selectAnswerBinding, AnswersXml.CORRECT.answerXml)
+            changeTextTask(getString(R.string.correct))
         } else {
-            changeAnswer(selectAnswerBinding, AnswerXmls.INCORRECT.answerXml)
-            changeTextTask("Неверно!")
+            changeAnswer(selectAnswerBinding, AnswersXml.INCORRECT.answerXml)
+            changeTextTask(getString(R.string.incorrect))
         }
     }
 
 
     private fun onClickNextTask() {
-        changeTextTask("Выберите корзину для мусора")
+        changeTextTask(getString(R.string.select_garbage_bag))
         testStartTask(Tasks.SECOND.taskEnum)
     }
 
     private fun checkCorrectAnswer(selectAnswerBinding: SelectAnswerBinding) {
         if (selectAnswerBinding.description.text.toString() == testCorrectAnswer) {
-            changeAnswer(selectAnswerBinding, AnswerXmls.CORRECT.answerXml)
+            changeAnswer(selectAnswerBinding, AnswersXml.CORRECT.answerXml)
         }
     }
 
@@ -127,7 +127,7 @@ class TasksFragment : Fragment() {
         SECOND(Task(R.drawable.trashimage_ek4, "Бутылка не пластиковая", "Пакет"))
     }
 
-    enum class AnswerXmls(val answerXml: Int) {
+    enum class AnswersXml(val answerXml: Int) {
         INCORRECT(R.drawable.answer_incorrect_button),
         CORRECT(R.drawable.answer_correct_button),
         SELECT(R.drawable.answer_select_button)

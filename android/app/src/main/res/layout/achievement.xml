@@ -41,8 +41,7 @@
 					android:layout_marginTop="25dp"
 					android:layout_width="180.40000009537dp"
 					android:layout_height="29.400000095367dp"
-					android:text="@string/sketch_ek1_string"
-					/>
+					android:text="@string/sketch_ek1_string" />
 
 				<TextView
 					android:id="@+id/description"
