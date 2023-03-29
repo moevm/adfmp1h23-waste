@@ -24,10 +24,12 @@ class ProfileFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        binding.notificationLayout.notifications.setOnClickListener {
+        
+        binding.notificationLayout.viewNotification.setOnClickListener {
             findNavController().navigate(R.id.action_ProfileFragment_to_notificationFragment)
         }
-        binding.notificationLayout.viewNotification.setOnClickListener {
+        // Переход на уведомления
+        binding.notificationLayout.notifications.setOnClickListener {
             findNavController().navigate(R.id.action_ProfileFragment_to_notificationFragment)
         }
         super.onViewCreated(view, savedInstanceState)
