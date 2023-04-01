@@ -19,7 +19,7 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: root
       MONGO_INITDB_DATABASE: trash
     ports:
-      - "27017:27017" # todo: remove
+      - "27017:27017"
     volumes:
       - db-data:/data/db
 
