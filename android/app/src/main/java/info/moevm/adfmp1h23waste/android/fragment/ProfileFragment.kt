@@ -28,6 +28,7 @@ class ProfileFragment : Fragment() {
         binding.notificationLayout.viewNotification.setOnClickListener {
             findNavController().navigate(R.id.action_ProfileFragment_to_notificationFragment)
         }
+
         // Переход на уведомления
         binding.notificationLayout.notifications.setOnClickListener {
             findNavController().navigate(R.id.action_ProfileFragment_to_notificationFragment)
